@@ -1,0 +1,27 @@
+<SEOR>
+    <!-- This adds roaming hordes To Early game By day 5 -->
+    <append xpath="(//entitygroup[starts-with(@name, 'wanderingHordeStageGS')])[position() > 13] | (//entitygroup[starts-with(@name,'BMHordeStageGS')])[position() > 16] | (//entitygroup[starts-with(@name,'feralHordeStageGS')])[position() > 13] | (//entitygroup[starts-with(@name, 'scoutHordeStageGS')])[position() > 13]">   
+        <entity name="animalZombieBear" prob="1.125" />
+        >
+        <entity name="animalBear" prob="1.125" />
+        <entity name="animalBossGrace" prob="0.5" />
+        <entity name="animalSnake" prob="1.125" />
+        <entity name="animalWolf" prob="1.125" />
+        <entity name="animalMountainLion" prob="1.125" />
+        
+    </append>
+    <!--This starts hordes at late game for bosses-->
+    <append xpath="(//entitygroup[starts-with(@name, 'wanderingHordeStageGS')])[position() > 17] | (//entitygroup[starts-with(@name,'BMHordeStageGS')])[position() > 53] | (//entitygroup[starts-with(@name, 'feralHordeStageGS')])[position() > 43] | (//entitygroup[starts-with(@name, 'scoutHordeStageGS')])[position() > 43]">
+    <entity name="animalBossCommanche" prob="1.25" count="5"/>
+    <entity name="animalYogiBearRad" prob="1.25" count="5"/>
+    <entity name="animalDragonWolfRad" prob="0.31" count="5"/>
+    <entity name="animalMaxFoxRad" prob="0.31" count="5"/>
+    <entity name="animalKingBones" prob="0.3" count="5" />
+    <entity name="animalQueenSosa" prob="0.3" count="5"/>
+    <entity name="animalSnakeRad" prob="0.3" count="5"/>
+    
+    
+-
+
+    </append>
+</SEOR>
