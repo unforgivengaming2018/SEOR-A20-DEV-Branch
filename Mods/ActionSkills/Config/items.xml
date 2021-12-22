@@ -255,13 +255,14 @@
 	</append>
 	
 	<!-- Pistols -->
+
 	<append xpath="/items/item[@name='gunHandgunT0PipePistol']">
 	  <effect_group name="Action Skills" tiered="false">
         <triggered_effect trigger="onSelfAttackOther" action="ModifyCVar" cvar="As_Pistols_XP" operation="add" value="6"> 
          <requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
 	   </triggered_effect>
 	    <triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="As_Pistols_XP" operation="add" value="24"/>
-		</effectgroup>
+		</effect_group>
 	</append>
 
 
