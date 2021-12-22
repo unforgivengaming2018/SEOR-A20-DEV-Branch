@@ -1,0 +1,36 @@
+<configs>
+	
+	<!-- add special 'vulture' tag to distinguish zombie animals -->
+	<set xpath="/entity_classes/entity_class[@name='animalZombieVulture']/property[@name='Tags']/@value">animal,zombie,hostile,vulture</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieVultureRadiated']/property[@name='Tags']/@value">animal,zombie,hostile,vulture</set>
+	
+	
+	<!-- nerfs ALL damage to body, then restores it to non-zombie and zombie-animal entities. -->
+	<!-- boosts base dismember chances. -->
+	<append xpath="/entity_classes/entity_class[@name='playerMale']/effect_group">
+		<!-- The following value is the body damage nerf. Lower fractions mean higher damage soak. -->
+		<!-- set to 0.01 (99% damage soak!) for Romero zombies -->
+		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="upperbody, lowerbody">
+			<requirement name="HoldingItemHasTags" tags="melee, ranged"/>
+		</passive_effect>
+		<passive_effect name="DismemberChance" operation="base_set" value="0.2"/>
+
+		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="upperbody, lowerbody">
+			<requirement name="EntityTagCompare" target="other" tags="zombie" invert="true"/>
+		</passive_effect>
+		<passive_effect name="DismemberChance" operation="base_subtract" value="0.2">
+			<requirement name="EntityTagCompare" target="other" tags="zombie" invert="true"/>
+		</passive_effect>
+
+		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="upperbody, lowerbody">
+			<requirement name="EntityTagCompare" target="other" tags="vulture"/>
+		</passive_effect>
+	</append>
+	
+	<!-- scale and adjust knockdown/knockprone values to roughly 4x expected difficulty. 50% feels right. -->
+	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]/property[@name='KnockdownProneDamageThreshold'][@value='0.5']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]/property[@name='KnockdownProneDamageThreshold'][@value='0.45']/@value">0.225</set>
+	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]/property[@name='KnockdownKneelDamageThreshold'][@value='0.4']/@value">0.2</set>
+	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]/property[@name='KnockdownKneelDamageThreshold'][@value='0.38']/@value">0.19</set>
+	
+</configs>

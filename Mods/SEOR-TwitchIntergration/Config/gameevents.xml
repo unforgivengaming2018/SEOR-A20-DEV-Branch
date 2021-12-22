@@ -1,0 +1,555 @@
+<SEOR>
+<append xpath="/gameevents">
+<action_sequence name="spawn_radanimalhorde">
+
+<action class="SpawnEntity">
+<property name="entity_names" value="animalQueenSosa,animalKingBones,animalBossCommanche,animalYogiBearRad,animalDragonWolfRad,animalMaxFoxRad,animalChickenDemon"/>
+<property name="spawn_count" value="3" />
+</action>
+
+<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="zombiemalealert" />
+			<property name="phase" value="1" />
+		</action>
+</action_sequence>
+
+        <action_sequence name="spawn_behemothhorde">
+        <action class="SpawnEntity"> 
+        <property name="entity_names" value="zombieBehemoth,zombieBehemothRadiated"/>
+		<property name="spawn_count" value="3" />
+		</action>
+       
+
+       <action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="zombiemalealert" />
+			<property name="phase" value="1" />
+		</action>
+
+        </action_sequence>
+
+        <action_sequence name="spawn_Lovers">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="MaxsLoverTitan"/>
+		</action>
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="ColossalMaxFoxGaming"/>
+		</action>
+				
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="zombiemalealert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+<!--
+
+<action_sequence name="spawn_peewee">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="zombiePeeWee"/>
+			<property name="spawn_count" value="4" />
+		</action>
+	
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="zombiemalealert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+
+    <action_sequence name="spawn_armorUnforgiven">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="ArmoredUnforgiven" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="zombiemalealert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+
+<action_sequence name="spawn_MaxsLoverTitan">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="MaxsLoverTitan" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="zombiemalealert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+
+
+<action_sequence name="spawn_aot">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="MaxsLoverTitan" />
+		</action>
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="ArmoredUnforgiven" />
+		</action>
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="ColossalMaxFoxGaming" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="zombiemalealert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+-->
+    <action_sequence name="buff_ELVISLegs">
+		
+		<action class="AddPartyToGroup">
+			<property name="phase" value="0" />
+			<property name="group_name" value="party" />
+		</action>
+		
+		<action class="AddBuff">
+			<property name="phase" value="1" />
+			<property name="buff_name" value="buffELVISLegs" />
+			<property name="target_group" value="party" />
+		</action>
+	</action_sequence>
+<!--
+
+	<action_sequence name="spawn_simon">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="Simon" />
+		</action>
+	
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="zombieferalalert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+-->
+	<action_sequence name="buff_poopybutt">
+		
+		<action class="AddPartyToGroup">
+			<property name="phase" value="0" />
+			<property name="group_name" value="party" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_buff" />
+			<property name="phase" value="1" />
+			<property name="inside_head" value="true" />
+			<property name="target_group" value="party" />
+		</action>
+	
+		<action class="PlaySound">
+			<property name="phase" value="1" />
+			<property name="sound" value="player1vomit" />
+			<property name="inside_head" value="true" />
+			<property name="target_group" value="party" />
+		</action>
+		
+		<action class="AddBuff">
+			<property name="phase" value="1" />
+			<property name="buff_name" value="buffDysenteryCatchFood" />
+			<property name="target_group" value="party" />
+		</action>
+		
+	</action_sequence>
+	
+	<action_sequence name="buff_brokenleg">
+		
+		<action class="AddPartyToGroup">
+			<property name="phase" value="0" />
+			<property name="group_name" value="party" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_buff" />
+			<property name="phase" value="1" />
+			<property name="inside_head" value="true" />
+			<property name="target_group" value="party" />
+		</action>
+		<action class="PlaySound">
+			<property name="phase" value="1" />
+			<property name="sound" value="player1vomit" />
+			<property name="inside_head" value="true" />
+			<property name="target_group" value="party" />
+		</action>
+		
+		<action class="AddBuff">
+			<property name="phase" value="1" />
+			<property name="buff_name" value="buffLegBroken" />
+			<property name="target_group" value="party" />
+		</action>
+		
+	</action_sequence>
+	
+	<action_sequence name="spawn_hellsangels">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="zombieBikerRadiated" />
+		</action>
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="zombieBiker" />
+		</action>
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="zombieBiker" />
+		</action>
+	
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="hulkalert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+	
+	<action_sequence name="spawn_whambulance">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="zombieNurseFeral" />
+		</action>
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="zombieNurseFeral" />
+		</action>
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="zombieMaleHazmat" />
+		</action>
+	
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="zombieferalalert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+
+
+	
+	<action_sequence name="spawn_maxfox">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalMaxFoxRad" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="wolfalert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+
+	<action_sequence name="spawn_yogibear">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalYogiBearRad" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="bearalert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+
+	<action_sequence name="spawn_dragonwolf">
+	 <action class="SpawnEntity">
+	 <property name="entity_names" value="animalDragonWolfRad"/>
+	 </action>
+
+     <action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="bearalert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+
+
+
+
+
+	<action_sequence name="spawn_duo">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalYogiBearRad" />
+		</action>
+		<action class="SpawnEntity">
+		<property name="entity_names" value="animalMaxFoxRad"/>
+		</action>
+
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="dogalert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+
+
+<action_sequence name="spawn_triplets">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalBossCommanche," />
+		</action>
+		
+		<action class="SpawnEntity">
+		<property name="entity_names" value="animalKingBones"/>
+		</action>
+		
+        <action class="SpawnEntity">
+		<property name="entity_names" value="animalQueenSosa"/>
+		</action>
+
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="dogalert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+
+<action_sequence name="action_removevehicle">
+	
+		<requirement class="NearbyEntities">
+			<property name="entity_tags" value="vehicle" />
+			<property name="max_distance" value="20" />
+			<property name="target_is_owner" value="true" />
+		</requirement>
+		
+		<action class="AddClosestEntityToGroup">
+			<property name="phase" value="0" />
+			<property name="group_name" value="vehicle" />
+			<property name="entity_tags" value="vehicle" />
+			<property name="max_distance" value="20" />
+			<property name="target_is_owner" value="true" />
+		</action>
+
+		<action class="RemoveVehicles">
+			<property name="phase" value="1" />
+			<property name="target_group" value="vehicle" />
+			<property name="return_items" value="true" />
+			<property name="include_vehicle" value="true" />
+		</action>
+
+		<action class="PlaySound">
+			<property name="phase" value="1" />
+			<property name="sound" value="itembreak" />
+		</action>
+		</action_sequence>
+		
+		<action_sequence name="spawn_normhorde">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="zombieArlene,zombieBoe,zombieJoe,zombieLab,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan,zombieNurse,zombieSkateboarder,zombieStripper,zombieBurnt,zombieJanitor"/>
+			<property name="spawn_count" value="4" />
+		</action>
+		
+		
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="zombiemalealert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+	
+	<action_sequence name="spawn_boomers">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="zombieFatCop,zombieDemolition,zombieFatCopFeral,zombieFatCopRadiated" />
+		</action>
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="zombieFatCop,zombieDemolition,zombieFatCopFeral,zombieFatCopRadiated" />
+		</action>
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="zombieFatCop,zombieDemolition,zombieFatCopFeral,zombieFatCopRadiated" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="hulkalert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+	
+	<action_sequence name="buff_rocketman">
+		
+		<action class="AddPartyToGroup">
+			<property name="phase" value="0" />
+			<property name="group_name" value="party" />
+		</action>
+		
+		<action class="AddBuff">
+			<property name="phase" value="1" />
+			<property name="buff_name" value="buffRocketman" />
+			<property name="target_group" value="party" />
+		</action>
+	</action_sequence>
+	
+	<action_sequence name="spawn_roulette">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalChicken,animalRabbit,Bad Luck" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="hulkalert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+	
+	<action_sequence name="buff_fried">
+		
+		<action class="AddPartyToGroup">
+			<property name="phase" value="0" />
+			<property name="group_name" value="party" />
+		</action>
+		
+		<action class="AddBuff">
+			<property name="phase" value="1" />
+			<property name="buff_name" value="buffFried" />
+			<property name="target_group" value="party" />
+		</action>
+	</action_sequence>
+	
+	<action_sequence name="spawn_capp">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalZombieVulture" />
+			<property name="air_spawn" value="true" />
+			<property name="yoffset" value="0.5" />
+		</action>
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalZombieVulture" />
+			<property name="air_spawn" value="true" />
+			<property name="yoffset" value="0.5" />
+		</action>
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalZombieVulture" />
+			<property name="air_spawn" value="true" />
+			<property name="yoffset" value="0.5" />
+		</action>
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalZombieVulture" />
+			<property name="air_spawn" value="true" />
+			<property name="yoffset" value="0.5" />
+		</action>
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalZombieVulture" />
+			<property name="air_spawn" value="true" />
+			<property name="yoffset" value="0.5" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="vulturealert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
+</append>	
+</SEOR>

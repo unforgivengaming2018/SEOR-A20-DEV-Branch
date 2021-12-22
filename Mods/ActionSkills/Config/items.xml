@@ -1,0 +1,529 @@
+<configs>
+	<!-- Tools -->
+	<append xpath="/items/item[@name='meleeToolRepairT0StoneAxe']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfHarvestBlock" action="ModifyCVar" cvar="AS_MiningTools_XP" operation="add" value="8"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfHarvestBlock" action="ModifyCVar" cvar="AS_MiningTools_XP" operation="add" value="8"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfHarvestBlock" action="ModifyCVar" cvar="AS_MiningTools_XP" operation="add" value="10"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfHarvestBlock" action="ModifyCVar" cvar="AS_MiningTools_XP" operation="add" value="12"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeToolShovelT0StoneShovel']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfHarvestBlock" action="ModifyCVar" cvar="AS_MiningTools_XP" operation="add" value="8"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeToolShovelT1IronShovel']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfHarvestBlock" action="ModifyCVar" cvar="AS_MiningTools_XP" operation="add" value="10"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeToolShovelT2SteelShovel']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfHarvestBlock" action="ModifyCVar" cvar="AS_MiningTools_XP" operation="add" value="12"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfHarvestBlock" action="ModifyCVar" cvar="AS_MiningTools_XP" operation="add" value="10"/>
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Bladed_XP" operation="add" value="12">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Bladed_XP" operation="add" value="36"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeToolAxeT2SteelAxe']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfHarvestBlock" action="ModifyCVar" cvar="AS_MiningTools_XP" operation="add" value="12"/>
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Bladed_XP" operation="add" value="15">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Bladed_XP" operation="add" value="45"/>
+		</effect_group>
+	</append>
+	
+	<!-- Weapons -->
+	
+	<!-- Blunt -->
+	<append xpath="/items/item[@name='eleeWpnClubT0WoodenClub']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="10">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="30"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeWpnClubT1BaseballBat']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="12">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="36"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="12">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="36"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeToolSalvageT1Wrench']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="12">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="36"/>
+		</effect_group>
+	</append>
+	
+	
+	
+	<append xpath="/items/item[@name='meleeWpnSledgeT0StoneSledgehammer']">
+	  <effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="15">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="45"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']">
+	  <effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="15">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="45"/>
+		</effect_group>
+	</append>
+
+	<append xpath="/items/item[@name'meleeWpnSledgeT1IronSledgehammer']">
+	 <effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="15">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="45"/>
+		</effect_group>
+	</append>
+	
+	
+	<!-- Bladed -->
+	<append xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Bladed_XP" operation="add" value="8">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Bladed_XP" operation="add" value="24"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Bladed_XP" operation="add" value="10">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Bladed_XP" operation="add" value="30"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeWpnBladeT3Machete']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Bladed_XP" operation="add" value="12">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Bladed_XP" operation="add" value="36"/>
+		</effect_group>
+	</append>
+	
+	<!-- Archery -->
+    
+	<append xpath="/items/item='gunBowT0PrimitiveBow']">
+      <effect_group name="Action Skills">
+			
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="8">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="24"/>
+		</effect_group>
+	</append>
+
+	<append xpath="/items/item[@name='gunBowT1WoodenBow']">	
+		<effect_group name="Action Skills">
+			
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="8">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="24"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='gunCompoundBow']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="10">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="30"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='gunCrossbow']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="12">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="36"/>
+		</effect_group>
+	</append>
+	
+
+	<append xpath="/items/item[@name='ammoArrowIron']">	
+		<effect_group name="Action Skills" tiered="false">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="1">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="3"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='ammoArrowSteelAP']">	
+		<effect_group name="Action Skills" tiered="false">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="2">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="6"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='ammoArrowFlaming']">	
+		<effect_group name="Action Skills" tiered="false">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="3">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="9"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='ammoCrossbowBoltIron']">	
+		<effect_group name="Action Skills" tiered="false">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="1">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="3"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='ammoCrossbowBoltSteelAP']">	
+		<effect_group name="Action Skills" tiered="false">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="2">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="6"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='ammoCrossbowBoltExploding']">	
+		<effect_group name="Action Skills" tiered="false">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="4">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="12"/>
+		</effect_group>
+	</append>
+	
+	<!-- Pistols -->
+	<append xpath="/items/item[@name='gunHandgunT0PipePistol']">
+	  <effect_group name="Action Skills" tiered="false">
+        <triggered_effect trigger="onSelfAttackOther" action="ModifyCVar" cvar="As_Pistols_XP" operation="add" value="6"> 
+         <requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+	   </triggered_effect>
+	    <triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="As_Pistols_XP" operation="add" value="24"/>
+		</effectgroup>
+	</append>
+
+
+	<append xpath="/items/item[@name='gunHandgunT1Pistol']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Pistols_XP" operation="add" value="6">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Pistols_XP" operation="add" value="24"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='gunHandgunT2Magnum44']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Pistols_XP" operation="add" value="15">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Pistols_XP" operation="add" value="60"/>
+		</effect_group>
+	</append>
+	
+    <append xpath="/items/item[@name='gunHandgunT3DesertVulture']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Pistols_XP" operation="add" value="15">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Pistols_XP" operation="add" value="60"/>
+		</effect_group>
+	</append>
+
+	<append xpath="/items/item[@name='gunHandgunT3SMG5']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Pistols_XP" operation="add" value="15">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Pistols_XP" operation="add" value="60"/>
+		</effect_group>
+	</append>
+
+
+	<!-- Shotguns -->
+	<append xpath="/items/item[@name='gunShotgunT0PipeShotgun']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Shotguns_XP" operation="add" value="1">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Shotguns_XP" operation="add" value="40"/>
+		</effect_group>
+	</append>
+
+	<append xpath="/items/item[@name='gunShotgunT1DoubleBarrel']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Shotguns_XP" operation="add" value="1">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Shotguns_XP" operation="add" value="40"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='gunShotgunT2PumpShotgun']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Shotguns_XP" operation="add" value="1">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Shotguns_XP" operation="add" value="45"/>
+		</effect_group>
+	</append>
+	
+
+	<append xpath="/items/item[@name='gunShotgunT3AutoShotgun']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Shotguns_XP" operation="add" value="1">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Shotguns_XP" operation="add" value="40"/>
+		</effect_group>
+	</append>
+
+
+	<!-- Rifles -->
+	<append xpath="/items/item[@name='gunRifleT0PipeRifle']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Rifles_XP" operation="add" value="10">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Rifles_XP" operation="add" value="40"/>
+		</effect_group>
+	</append>
+
+	<append xpath="/items/item[@name='gunRifleT1HuntingRifle']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Rifles_XP" operation="add" value="10">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Rifles_XP" operation="add" value="40"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='gunRifleT2LeverActionRifle']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Rifles_XP" operation="add" value="10">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Rifles_XP" operation="add" value="40"/>
+		</effect_group>
+	</append>
+     
+	 <append xpath="/items/item[@name='gunRifleT3SniperRifle']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Rifles_XP" operation="add" value="10">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Rifles_XP" operation="add" value="40"/>
+		</effect_group>
+	</append>
+
+	
+	
+	<!-- Automatics -->
+	<append xpath="/items/item[@name='gunMGT0PipeMachineGun']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Automatics_XP" operation="add" value="8">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Automatics_XP" operation="add" value="32"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='gunMGT1AK47']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Automatics_XP" operation="add" value="8">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Automatics_XP" operation="add" value="32"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='gunMGT2TacticalAR']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Automatics_XP" operation="add" value="8">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Automatics_XP" operation="add" value="32"/>
+		</effect_group>
+	</append>
+
+	<append xpath="/items/item[@name='gunMGT3M60']">	
+		<effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Automatics_XP" operation="add" value="8">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="AS_Automatics_XP" operation="add" value="32"/>
+		</effect_group>
+	</append>
+	
+	<!-- Magazine Increases -->
+	<remove xpath="/items/item[@name='magazinePerkMiner69r']/property[@class='Action0']/requirement"/>
+	<remove xpath="/items/item[@name='magazinePerkMiner69r']/effect_group/triggered_effect"/>
+	<append xpath="/items/item[@name='magazinePerkMiner69r']">
+		<property name="DescriptionKey" value="magazinePerkASMiningToolsDesc"/>
+	</append>
+	<append xpath="/items/item[@name='magazinePerkMiner69r']/effect_group">
+		<requirement name="CVarCompare" cvar="AS_MiningTools_Lvl" operation="LT" value="100"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_MiningTools_XP" operation="add" value="@AS_MiningTools_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_MiningTools_LvlNextAdd" operation="multiply" value="@AS_XP_Mult"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_MiningTools_LvlNextTotal" operation="add" value="@AS_MiningTools_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_MiningTools_Lvl" operation="add" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Mining Tools level increased"/>
+	</append>
+	
+	<remove xpath="/items/item[@name='magazinePerkHeavyMetal']/property[@class='Action0']/requirement"/>
+	<remove xpath="/items/item[@name='magazinePerkHeavyMetal']/effect_group/triggered_effect"/>
+	<append xpath="/items/item[@name='magazinePerkHeavyMetal']">
+		<property name="DescriptionKey" value="magazinePerkASBluntDesc"/>
+	</append>
+	<append xpath="/items/item[@name='magazinePerkHeavyMetal']/effect_group">
+		<requirement name="CVarCompare" cvar="AS_Blunt_Lvl" operation="LT" value="100"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="@AS_Blunt_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Blunt_LvlNextAdd" operation="multiply" value="@AS_XP_Mult"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Blunt_LvlNextTotal" operation="add" value="@AS_Blunt_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Blunt_Lvl" operation="add" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Blunt Weapons level increased"/>
+	</append>
+	
+	<remove xpath="/items/item[@name='magazinePerkDeepCuts']/property[@class='Action0']/requirement"/>
+	<remove xpath="/items/item[@name='magazinePerkDeepCuts']/effect_group/triggered_effect"/>	
+	<append xpath="/items/item[@name='magazinePerkDeepCuts']">
+		<property name="DescriptionKey" value="magazinePerkASBladedDesc"/>
+	</append>
+	<append xpath="/items/item[@name='magazinePerkDeepCuts']/effect_group">
+		<requirement name="CVarCompare" cvar="AS_Bladed_Lvl" operation="LT" value="100"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Bladed_XP" operation="add" value="@AS_Bladed_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Bladed_LvlNextAdd" operation="multiply" value="@AS_XP_Mult"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Bladed_LvlNextTotal" operation="add" value="@AS_Bladed_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Bladed_Lvl" operation="add" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Bladed Weapons level increased"/>
+	</append>
+	
+	<remove xpath="/items/item[@name='magazinePerkArchery']/property[@class='Action0']/requirement"/>
+	<remove xpath="/items/item[@name='magazinePerkArchery']/effect_group/triggered_effect"/>
+	<append xpath="/items/item[@name='magazinePerkArchery']">
+		<property name="DescriptionKey" value="magazinePerkASArcheryDesc"/>
+	</append>
+	<append xpath="/items/item[@name='magazinePerkArchery']/effect_group">
+		<requirement name="CVarCompare" cvar="AS_Archery_Lvl" operation="LT" value="100"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Archery_XP" operation="add" value="@AS_Archery_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Archery_LvlNextAdd" operation="multiply" value="@AS_XP_Mult"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Archery_LvlNextTotal" operation="add" value="@AS_Archery_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Archery_Lvl" operation="add" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Archery Weapons level increased"/>
+	</append>
+	
+	<remove xpath="/items/item[@name='magazinePerkGunslinger']/property[@class='Action0']/requirement"/>
+	<remove xpath="/items/item[@name='magazinePerkGunslinger']/effect_group/triggered_effect"/>
+	<set xpath="/items/item[@name='magazinePerkGunslinger']/property[@name='DescriptionKey']/@value">magazinePerkASPistolsDesc</set>
+	<append xpath="/items/item[@name='magazinePerkGunslinger']/effect_group">
+		<requirement name="CVarCompare" cvar="AS_Pistols_Lvl" operation="LT" value="100"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Pistols_XP" operation="add" value="@AS_Pistols_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Pistols_LvlNextAdd" operation="multiply" value="@AS_XP_Mult"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Pistols_LvlNextTotal" operation="add" value="@AS_Pistols_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Pistols_Lvl" operation="add" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Pistol Weapons level increased"/>
+	</append>
+	
+	<remove xpath="/items/item[@name='magazinePerkShotgunMessiah']/property[@class='Action0']/requirement"/>
+	<remove xpath="/items/item[@name='magazinePerkShotgunMessiah']/effect_group/triggered_effect"/>
+	<append xpath="/items/item[@name='magazinePerkShotgunMessiah']">
+		<property name="DescriptionKey" value="magazinePerkASShotgunsDesc"/>
+	</append>
+	<append xpath="/items/item[@name='magazinePerkShotgunMessiah']/effect_group">
+		<requirement name="CVarCompare" cvar="AS_Shotguns_Lvl" operation="LT" value="100"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Shotguns_XP" operation="add" value="@AS_Shotguns_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Shotguns_LvlNextAdd" operation="multiply" value="@AS_XP_Mult"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Shotguns_LvlNextTotal" operation="add" value="@AS_Shotguns_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Shotguns_Lvl" operation="add" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Shotgun Weapons level increased"/>
+	</append>
+	
+	<remove xpath="/items/item[@name='magazinePerkDeadEye']/property[@class='Action0']/requirement"/>
+	<remove xpath="/items/item[@name='magazinePerkDeadEye']/effect_group/triggered_effect"/>
+	<append xpath="/items/item[@name='magazinePerkDeadEye']">
+		<property name="DescriptionKey" value="magazinePerkASRiflesDesc"/>
+	</append>
+	<append xpath="/items/item[@name='magazinePerkDeadEye']/effect_group">
+		<requirement name="CVarCompare" cvar="AS_Rifles_Lvl" operation="LT" value="100"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Rifles_XP" operation="add" value="@AS_Rifles_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Rifles_LvlNextAdd" operation="multiply" value="@AS_XP_Mult"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Rifles_LvlNextTotal" operation="add" value="@AS_Rifles_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Rifles_Lvl" operation="add" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Rifle Weapons level increased"/>
+	</append>
+	
+	<remove xpath="/items/item[@name='magazinePerkAutomaticWeapons']/property[@class='Action0']/requirement"/>
+	<remove xpath="/items/item[@name='magazinePerkAutomaticWeapons']/effect_group/triggered_effect"/>
+	<append xpath="/items/item[@name='magazinePerkAutomaticWeapons']">
+		<property name="DescriptionKey" value="magazinePerkASAutomaticsDesc"/>
+	</append>
+	<append xpath="/items/item[@name='magazinePerkAutomaticWeapons']/effect_group">
+		<requirement name="CVarCompare" cvar="AS_Automatics_Lvl" operation="LT" value="100"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Automatics_XP" operation="add" value="@AS_Automatics_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Automatics_LvlNextAdd" operation="multiply" value="@AS_XP_Mult"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Automatics_LvlNextTotal" operation="add" value="@AS_Automatics_LvlNextAdd"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AS_Automatics_Lvl" operation="add" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Automatic Weapons level increased"/>
+	</append>
+</configs>

@@ -1,0 +1,48 @@
+<SEOR>
+<!-- This adds hazmat for Radiation in the Wasteland -->
+<append xpath="/recipes">
+<recipe name="apparelHazmatBoots" count="1" craft_area="workbench" craft_time="120">
+<ingredient name="resourceMilitaryFiber" count="20" />
+<ingredient name="resourceYuccaFibers" count="250"/>
+<ingredient name="resourceForgedSteel" count="500"/>
+</recipe>
+</append>
+
+<append xpath="/recipes">
+<recipe name="apparelHazmatPants" count="1" craft_area="workbench" craft_time="120">
+<ingredient name="resourceMilitaryFiber" count="20" />
+<ingredient name="resourceYuccaFibers" count="250"/>
+<ingredient name="resourceForgedSteel" count="500"/>
+</recipe>
+</append>
+<append xpath="/recipes">
+<recipe name="apparelHazmatJacket" count="1" craft_area="workbench" craft_time="120">
+<ingredient name="resourceMilitaryFiber" count="20" />
+<ingredient name="resourceYuccaFibers" count="250"/>
+<ingredient name="resourceForgedSteel" count="500"/>
+</recipe>
+</append>
+<append xpath="/recipes">
+<recipe name="apparelHazmatGloves" count="1" craft_area="workbench" craft_time="120">
+<ingredient name="resourceMilitaryFiber" count="20" />
+<ingredient name="resourceYuccaFibers" count="250"/>
+<ingredient name="resourceForgedSteel" count="500"/>
+</recipe>
+</append>
+<append xpath="/recipes">
+<recipe name="apparelHazmatMask" count="1" craft_area="workbench" craft_time="120">
+<ingredient name="resourceMilitaryFiber" count="20" />
+<ingredient name="resourceYuccaFibers" count="250"/>
+<ingredient name="resourceForgedSteel" count="500"/>
+</recipe>
+</append>
+
+
+
+
+
+
+
+
+
+</SEOR>

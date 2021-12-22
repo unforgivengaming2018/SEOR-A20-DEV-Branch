@@ -1,0 +1,81 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+
+TwitchAction_Buffpoopybutt,twitch,Actions,,,Dysentery,,,,,,,,,,,,,
+TwitchAction_BuffpoopybuttCommand,twitch,Actions,,,#poopybutt,,,,,,,,,,,,,,
+TwitchAction_BuffpoopybuttDesc,twitch,Actions,,,Gives Dysentery.,,,,,,,,,,,,,,
+
+TwitchAction_Buffbrokenleg,twitch,Actions,,,Broken leg,,,,,,,,,,,,,
+TwitchAction_BuffbrokenlegCommand,twitch,Actions,,,#brokenleg,,,,,,,,,,,,,,
+TwitchAction_BuffbrokenlegDesc,twitch,Actions,,,Gives a Broken Leg.,,,,,,,,,,,,,,
+
+TwitchAction_BuffELVISLegs,twitch,Actions,,,ELVIS Legs,,,,,,,,,,,,,
+TwitchAction_BuffELVISLegsCommand,twitch,Actions,,,#elvislegs,,,,,,,,,,,,,,
+TwitchAction_BuffELVISLegsDesc,twitch,Actions,,,Gives ELVIS Legs.,,,,,,,,,,,,,,
+
+TwitchAction_Spawnhellsangels,twitch,Actions,,,Biker Zombies,,,,,,,,,,,,,
+TwitchAction_SpawnhellsangelsCommand,twitch,Actions,,,#spawn_hellsangels,,,,,,,,,,,,,,
+TwitchAction_SpawnhellsangelsDesc,twitch,Actions,,,Spawns a Radiated Biker and 2 normal bikers (Idea from MorbidlyMorose).,,,,,,,,,,,,,,
+
+TwitchAction_Spawnwhambulance,twitch,Actions,,,Medical Zombies,,,,,,,,,,,,,
+TwitchAction_SpawnwhambulanceCommand,twitch,Actions,,,#spawn_whambulance,,,,,,,,,,,,,,
+TwitchAction_SpawnwhambulanceDesc,twitch,Actions,,,Spawns 2 Feral Nurses and a Hazmat Zombie (Idea from MorbidlyMorose).,,,,,,,,,,,,,,
+
+TwitchAction_Spawnmaxfox,twitch,Actions,,,Special Dogs,,,,,,,,,,,,,
+TwitchAction_SpawnmaxfoxCommand,twitch,Actions,,,#spawn_maxfox,,,,,,,,,,,,,,
+TwitchAction_SpawnmaxfoxDesc,twitch,Actions,,,Spawns a MaxFox.,,,,,,,,,,,,,,
+
+TwitchAction_Spawnyogibear,twitch,Actions,,,SpecialBear,,,,,,,,
+TwitchAction_SpawnyogibearCommand,twitch,Actions,,,#spawn_yogibear,,,,,,,,
+TwitchAction_SpawnyogibearDesc,twitch,Actions,,,A Special Yogi That gives a surprise,,,,,,,,
+
+TwitchAction_Spawndragonwolf,twitch,Actions,,,SpecialWolf
+TwitchAction_SpawndragonwolfCommand,twitch,Actions,,,#spawn_dragonwolf,,,,,,
+TwitchAction_SpawndragonwolfDesc,twitch,Actions,,,Spawns A special Wolf Named DragonWolf,,,,,,,,,
+
+TwitchAction_radanimalhorde,twitch,Actions,,,Rad Animal Horde
+TwitchAction_radanimalhordeCommand,twitch,Actions,,,#spawn_radanimals,,,,,,
+TwitchAction_radanimalhordeDesc,twitch,Actions,,,Spawns a horde of radiated animals,,,,,,,,,
+
+TwitchAction_Spawnphancy,twitch,Actions,,,Attack Chicken,,,,,,,,,,,,,
+TwitchAction_SpawnphancyCommand,twitch,Actions,,,#spawn_phancy,,,,,,,,,,,,,,
+TwitchAction_SpawnphancyDesc,twitch,Actions,,,Spawns a Phancy attack chicken.,,,,,,,,,,,,,,
+
+TwitchAction_Spawnsimon,twitch,Actions,,,Mega Crawler Zombie,,,,,,,,,,,,,
+TwitchAction_SpawnsimonCommand,twitch,Actions,,,#spawn_simon,,,,,,,,,,,,,,
+TwitchAction_SpawnsimonDesc,twitch,Actions,,,Spawns Simon the Killer Crawler.,,,,,,,,,,,,,,
+
+TwitchAction_Spawnduo,twitch,Actions,,,Pair of Rad Animals,,,,,,,,,,,,,
+TwitchAction_SpawnduoCommand,twitch,Actions,,,#spawn_duo,,,,,,,,,,,,,,
+TwitchAction_SpawnduoDesc,twitch,Actions,,,Spawns a yogi and maxfox.,,,,,,,,,,,,,,
+
+TwitchAction_Spawntriplets,twitch,Actions,,,Trio of Rad Animals,,,,,,,,,,,,,
+TwitchAction_SpawntripletsCommand,twitch,Actions,,,#spawn_triplets,,,,,,,,,,,,,,
+TwitchAction_SpawntripletsDesc,twitch,Actions,,,Spawns a trio of rad bosses.,,,,,,,,,,,,,,
+
+TwitchAction_normhordeCommand,twitch,Actions,,,#spawn_normhorde,,,,,,,,,,,,,,
+TwitchAction_normhordeDesc,twitch,Actions,,,Spawns 4 normal zombies.,,,,,,,,,,,,,,
+TwitchAction_normhorde,twitch,Actions,,,Normal Zombies,,,,,,,,,,,,,,
+
+TwitchAction_Spawnboomers,twitch,Actions,,,Boomer Zombies,,,,,,,,,,,,,,
+TwitchAction_SpawnboomersCommand,twitch,Actions,,,#spawn_boomers,,,,,,,,,,,,,,
+TwitchAction_SpawnboomersDesc,twitch,Actions,,,Spawns 3 Cop or Demo Zombies.,,,,,,,,,,,,,,
+
+TwitchAction_Buffrocketman,twitch,Actions,,,Rocket Boots,,,,,,,,,,,,,
+TwitchAction_BuffrocketmanCommand,twitch,Actions,,,#rocketman,,,,,,,,,,,,,,
+TwitchAction_BuffrocketmanDesc,twitch,Actions,,,20 seconds of Rocket Boots (Idea from Zedtubegaming).,,,,,,,,,,,,,,
+
+TwitchAction_Spawnroulette,twitch,Actions,,,Try your luck,,,,,,,,,,,,,
+TwitchAction_SpawnrouletteCommand,twitch,Actions,,,#roulette,,,,,,,,,,,,,,
+TwitchAction_SpawnrouletteDesc,twitch,Actions,,,Spawns either a chicken a rabbit or a special Demolition Zombie.,,,,,,,,,,,,,,
+
+TwitchAction_BuffFried,twitch,Actions,,,Ring of Fire,,,,,,,,,,,,,
+TwitchAction_BuffFriedCommand,twitch,Actions,,,#fried,,,,,,,,,,,,,,
+TwitchAction_BuffFriedDesc,twitch,Actions,,,20 seconds of Ring of Fire Dev Item (Idea from FriedFrogin).,,,,,,,,,,,,,,
+
+TwitchAction_novehicle,twitch,Actions,,,No Vehicle Allowed,,,,,,,,,,,,,
+TwitchAction_novehicleCommand,twitch,Actions,,,#novehicle,,,,,,,,,,,,,,
+TwitchAction_novehicleDesc,twitch,Actions,,,Removes vehicle and places it on in a loot bag on the ground with it's inventory.,,,,,,,,,,,,,,
+
+TwitchAction_SpawnCapp,twitch,Actions,,,Stupid Birds,,,,,,,,,,,,,,
+TwitchAction_SpawnCappCommand,twitch,Actions,,,#spawn_capp,,,,,,,,,,,,,,
+TwitchAction_SpawnCappDesc,twitch,Actions,,,Spawns a horde of Stupid Birds.,,,,,,,,,,,,,,

@@ -2,7 +2,7 @@
     <!-- This adds roaming hordes To Early game By day 5 -->
     <append xpath="(//entitygroup[starts-with(@name, 'wanderingHordeStageGS')])[position() > 13] | (//entitygroup[starts-with(@name,'BMHordeStageGS')])[position() > 16] | (//entitygroup[starts-with(@name,'feralHordeStageGS')])[position() > 13] | (//entitygroup[starts-with(@name, 'scoutHordeStageGS')])[position() > 13]">   
         <entity name="animalZombieBear" prob="1.125" />
-        >
+       
         <entity name="animalBear" prob="1.125" />
         <entity name="animalBossGrace" prob="0.5" />
         <entity name="animalSnake" prob="1.125" />

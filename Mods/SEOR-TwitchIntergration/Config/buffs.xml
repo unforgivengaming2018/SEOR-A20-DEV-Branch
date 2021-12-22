@@ -1,0 +1,90 @@
+<SEOR>
+<append xpath="/buffs">
+
+	<buff name="buffciIsOnFire">
+			<damage_type value="Heat"/>
+			<stack_type value="ignore"/>
+			<duration value="0"/>
+			<effect_group name="run particles, cleanup">
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_onFire" local_offset="0,-.2,0" parent_transform="LOD0" shape_mesh="true"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_onFire" local_offset="0,-.2,0" parent_transform="LOD0" shape_mesh="true"/>
+<!--
+			<triggered_effect trigger="onSelfBuffRemove" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0"/>
+			<triggered_effect trigger="onSelfDied" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0"/>
+-->
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_onFire"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_onFire"/>
+
+			</effect_group>
+		</buff>	
+		
+		<buff name="buffRocketman" icon="ui_game_symbol_twitch_keep_moving" icon_color="175,255,255">
+			<duration value="25"/>
+			<display_value value=".TwitchRocketmanTimer"/>
+			<display_value_format value="time"/>
+			
+			<effect_group>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".TwitchRocketmanTimer" operation="set" value="25"/>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".TwitchRocketmanTimer" operation="set" value="25"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".TwitchRocketmanTimer" operation="add" value="-1"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".TwitchRocketmanTimer" operation="set" value="0"/>
+			
+			<passive_effect name="JumpStrength" operation="perc_add" value="4.2"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.75" tags="jumping"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDontBreakMyLeg"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffDontBreakMyLeg"/>
+
+			<triggered_effect trigger="onSelfJump" action="PlaySound" sound="m136_fire" play_in_head="false"/>
+			<triggered_effect trigger="onSelfJump" action="AddBuff" buff="buffRocketBootsAirborne"/>
+
+			</effect_group>
+		</buff>	
+        
+        <buff name="ELVISLegs" Icon="ui_game_symbol_stunned" Icon_color="4,106,56">
+			<display_value value=".TwitchELVISLegsTimer"/>
+			<display_value_format value="time"/>
+		  
+			<effect_group name="Timers">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".TwitchELVISLegsTimer" operation="set" value="60"/>
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".TwitchELVISLegsTimer" operation="set" value="60"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".TwitchELVISLegsTimer" operation="add" value="-1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="ELVISLegs" target="self">
+					<requirement name="CVarCompare" cvar=".TwitchELVISLegsTimer" operation="LTE" value="0" />
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".TwitchELVISLegsTimer" operation="set" value="0"/>
+			</effect_group>
+
+			<effect_group name="Trigger Ragdoll">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="ELVISLegsRagdoll" target="self" />
+			</effect_group>
+		</buff>
+
+    <buff name="ELVISLegsRagdoll" hidden="true">
+        <stack_type value="ignore" />
+        
+        <effect_group name="Halt Movement">
+            <passive_effect name="RunSpeed" operation="perc_set" value="0"/>
+            <passive_effect name="WalkSpeed" operation="perc_set" value="0"/>
+            <passive_effect name="CrouchSpeed" operation="perc_set" value="0"/>
+            <passive_effect name="JumpStrength" operation="perc_set" value="0"/>
+        </effect_group>        
+
+        <effect_group name="Ragdoll every 3 seconds">
+            <triggered_effect trigger="onSelfBuffStart" action="Ragdoll" duration="1">
+                <requirement name="!EntityTagCompare" tags="trader"/>
+            </triggered_effect>
+        </effect_group>
+
+        <effect_group name="Remove after ragdoll">
+            <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".ELVISLegsCooldown" operation="set" value="8" />
+            <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ELVISLegsCooldown" operation="add" value="-1" />
+            <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="ELVISLegsRagdoll" target="self">
+                <requirement name="CVarCompare" cvar=".ELVISLegsCooldown" operation="LTE" value="0" />
+            </triggered_effect>
+        </effect_group>
+    </buff>
+        
+
+</append>
+</SEOR>

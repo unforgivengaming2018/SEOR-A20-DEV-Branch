@@ -3,7 +3,7 @@ zombieMaxFoxRad,entityclasses,zombie,,,"Max Fox"
 animalQueenSosa,entityclasses,zombie,,"QueenSosa"
 animalKingBones,entityclasses,zombie.."KingBones",,
 animalBossCommanche,entityclasses,zombie,,"Commanche"
-animalYogiBearRad,entityclasses,zombie,,"YogiBear"
-animalDragonWolfRad,entityclasses,zombie,,"DragonWolf"
-animalSnakeRad,entityclasses,zombie,,"Samuel L Jackson"
+animalYogiBearRad,entityclasses,zombie,,"Jonahs Pet"
+animalDragonWolfRad,entityclasses,zombie,,"DragonWolfDarkMatter"
+animalSnakeRad,entityclasses,zombie,,"SnakesOnAPlane"
 
