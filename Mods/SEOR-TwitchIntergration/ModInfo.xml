@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
 	<xml>
 		<ModInfo>
-			<Name value="SEOR-TwitchIntergration"/>
-			<Description value="Allows modding of twitch chat integration for Survive Enter at your own Risk"/>
-			<Author value="Unforgiven774,dr_alejand4089"/>
-			<Version value="1.9.2"/>
+			<Name value="Z Twitch Int Mod"/>
+			<Description value="Allows modding of twitch chat integration for war3zuk"/>
+			<Author value="dr_alejandro89/War3zukedit"/>
+			<Version value="1.8.2"/>
 			<Website value=""/>
 		</ModInfo>
 	</xml>

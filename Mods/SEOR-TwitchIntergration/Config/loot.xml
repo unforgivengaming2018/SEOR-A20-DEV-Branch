@@ -1,0 +1,57 @@
+<configs>
+
+<remove xpath="/lootcontainers/lootgroup[@name='twitch_motorcycle']"/>
+<remove xpath="/lootcontainers/lootgroup[@name='twitch_minibike']"/>
+<remove xpath="/lootcontainers/lootgroup[@name='twitch_4x4']"/>
+<remove xpath="/lootcontainers/lootgroup[@name='twitch_bicycle']"/>
+<remove xpath="/lootcontainers/lootgroup[@name='twitch_robo2']"/>
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='twitch_foodT0']">		
+
+
+<lootgroup name="twitch_robo2" count="all">
+	<item group="twitch_robospammo"/>
+	<item name="gunBotT2JunkTurret"/>
+	<item name="gunBotT3JunkDrone"/>
+</lootgroup>
+
+
+<lootgroup name="twitch_bicycle" count="all">
+	<item name="vehicleBicyclePlaceable" count="1"/>
+</lootgroup>
+
+<lootgroup name="twitch_minibike1" count="1">
+	<item name="vehicleMinibikePlaceable" count="1"/>
+</lootgroup>
+
+<lootgroup name="twitch_minibike" count="all">
+	<item group="twitch_minibike1" count="1"/>
+	<item name="ammoGasCan" count="50,200"/>
+</lootgroup>
+
+<lootgroup name="twitch_motorcycle1" count="1">
+	<item name="vehicleMotorcyclePlaceable" count="1"/>
+</lootgroup>
+
+<lootgroup name="twitch_motorcycle" count="all">
+	<item group="twitch_motorcycle1" count="1"/>
+	<item name="ammoGasCan" count="100,300"/>
+</lootgroup>
+
+<lootgroup name="twitch_4x41" count="1">
+	<item name="vehicle4x4TruckPlaceable" count="1"/>
+</lootgroup>
+
+<lootgroup name="twitch_4x4" count="all">
+	<item group="twitch_4x41" count="1"/>
+	<item name="ammoGasCan" count="500,2000"/>
+</lootgroup>
+
+
+	</insertBefore>
+	
+<append xpath="/lootcontainers">
+
+
+	
+</append>
+</configs>

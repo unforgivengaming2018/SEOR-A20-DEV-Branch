@@ -1,4 +1,77 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english
+{my_key},{xml_file},{type_of_object},{true/false/null},{true/false/null},"{Localized_Name_Eng}"
+
+TwitchAction_normhordeCommand,twitch,Actions,,,#spawn_normhorde,,,,,,,,,,,,,,
+TwitchAction_normhordeDesc,twitch,Actions,,,Spawns 4 normal zombies.,,,,,,,,,,,,,,
+TwitchAction_normhorde,twitch,Actions,,,Normal Zombies,,,,,,,,,,,,,,
+
+TwitchAction_Spawnboomers,twitch,Actions,,,Boomer Zombies,,,,,,,,,,,,,,
+TwitchAction_SpawnboomersCommand,twitch,Actions,,,#spawn_boomers,,,,,,,,,,,,,,
+TwitchAction_SpawnboomersDesc,twitch,Actions,,,Spawns 3 Cop or Demo Zombies.,,,,,,,,,,,,,,
+
+TwitchAction_SpawnScreamer,twitch,Actions,,,Screamer Zombie,,,,,,,,,,,,,,
+TwitchAction_SpawnScreamerCommand,twitch,Actions,,,#spawn_screamer,,,,,,,,,,,,,,
+TwitchAction_SpawnScreamerDesc,twitch,Actions,,,Spawns a Screamer Zombie.,,,,,,,,,,,,,,
+
+TwitchAction_SpawnScreamerFeral,twitch,Actions,,,Feral Screamer Zombie,,,,,,,,,,,,,,
+TwitchAction_SpawnScreamerFeralCommand,twitch,Actions,,,#spawn_screamerferal,,,,,,,,,,,,,,
+TwitchAction_SpawnScreamerFeralDesc,twitch,Actions,,,Spawns a Feral Screamer Zombie.,,,,,,,,,,,,,,
+
+TwitchAction_SpawnLovers,twitch,Actions,,,Burning Zombies,,,,,,,,,,,,,,
+TwitchAction_SpawnLoversCommand,twitch,Actions,,,#spawn_lovers,,,,,,,,,,,,,,
+TwitchAction_SpawnLoversDesc,twitch,Actions,,,Spawns a large burning Arlene and Cowboy (Much to a Woodle's Dismay).,,,,,,,,,,,,,,
+
+TwitchAction_Spawnpeewee,twitch,Actions,,,Football Zombies,,,,,,,,,,,,,,
+TwitchAction_SpawnpeeweeCommand,twitch,Actions,,,#spawn_peewee,,,,,,,,,,,,,,
+TwitchAction_SpawnpeeweeDesc,twitch,Actions,,,Spawns a horde of mini football players.,,,,,,,,,,,,,,
+
+TwitchAction_SpawnCapp,twitch,Actions,,,Stupid Birds,,,,,,,,,,,,,,
+TwitchAction_SpawnCappCommand,twitch,Actions,,,#spawn_capp,,,,,,,,,,,,,,
+TwitchAction_SpawnCappDesc,twitch,Actions,,,Spawns a horde of Stupid Birds.,,,,,,,,,,,,,,
+
+TwitchAction_Spawnarmortitan,twitch,Actions,,,Titan Zombie,,,,,,,,,,,,,,
+TwitchAction_SpawnarmortitanCommand,twitch,Actions,,,#spawn_armortitan,,,,,,,,,,,,,,
+TwitchAction_SpawnarmortitanDesc,twitch,Actions,,,Spawns a Titan.,,,,,,,,,,,,,,
+
+TwitchAction_Spawnfemaletitan,twitch,Actions,,,Titan Zombie,,,,,,,,,,,,,,
+TwitchAction_SpawnfemaletitanCommand,twitch,Actions,,,#spawn_femaletitan,,,,,,,,,,,,,,
+TwitchAction_SpawnfemaletitanDesc,twitch,Actions,,,Spawns a Titan.,,,,,,,,,,,,,,
+
+TwitchAction_Spawncoltitan,twitch,Actions,,,Titan Zombie,,,,,,,,,,,,,,
+TwitchAction_SpawncoltitanCommand,twitch,Actions,,,#spawn_coltitan,,,,,,,,,,,,,,
+TwitchAction_SpawncoltitanDesc,twitch,Actions,,,Spawns a Titan.,,,,,,,,,,,,,,
+
+TwitchAction_Spawnaot,twitch,Actions,,,Titan Zombie,,,,,,,,,,,,,,
+TwitchAction_SpawnaotCommand,twitch,Actions,,,#spawn_aot,,,,,,,,,,,,,,
+TwitchAction_SpawnaotDesc,twitch,Actions,,,Spawns all Titans.,,,,,,,,,,,,,,
+
+TwitchAction_Spawnspiderswarm,twitch,Actions,,,Spiders,,,,,,,,,,,,,,
+TwitchAction_SpawnspiderswarmCommand,twitch,Actions,,,#spawn_spiderswarm,,,,,,,,,,,,,,
+TwitchAction_SpawnspiderswarmDesc,twitch,Actions,,,Spawns 3 spiders.,,,,,,,,,,,,,,
+
+TwitchAction_Spawnbookclub,twitch,Actions,,,Female Zombies,,,,,,,,,,,,,
+TwitchAction_SpawnbookclubCommand,twitch,Actions,,,#spawn_bookclub,,,,,,,,,,,,,,
+TwitchAction_SpawnbookclubDesc,twitch,Actions,,,Spawns BIG MAMA and her book club (Idea from Tinfoil_Tim_Gaming).,,,,,,,,,,,,,,
+
+TwitchAction_Buffrocketman,twitch,Actions,,,Rocket Boots,,,,,,,,,,,,,
+TwitchAction_BuffrocketmanCommand,twitch,Actions,,,#rocketman,,,,,,,,,,,,,,
+TwitchAction_BuffrocketmanDesc,twitch,Actions,,,20 seconds of Rocket Boots (Idea from Zedtubegaming).,,,,,,,,,,,,,,
+
+TwitchAction_Spawnwolfpack,twitch,Actions,,,Wolf Pack,,,,,,,,,,,,,
+TwitchAction_SpawnwolfpackCommand,twitch,Actions,,,#spawn_wolfpack,,,,,,,,,,,,,,
+TwitchAction_SpawnwolfpackDesc,twitch,Actions,,,Spawns 2 Jimmy Wolves (Idea from J1mmybo1000).,,,,,,,,,,,,,,
+
+TwitchAction_Spawnroulette,twitch,Actions,,,Try your luck,,,,,,,,,,,,,
+TwitchAction_SpawnrouletteCommand,twitch,Actions,,,#roulette,,,,,,,,,,,,,,
+TwitchAction_SpawnrouletteDesc,twitch,Actions,,,Spawns either a chicken a rabbit or a special Demolition Zombie.,,,,,,,,,,,,,,
+
+TwitchAction_BuffFried,twitch,Actions,,,Ring of Fire,,,,,,,,,,,,,
+TwitchAction_BuffFriedCommand,twitch,Actions,,,#fried,,,,,,,,,,,,,,
+TwitchAction_BuffFriedDesc,twitch,Actions,,,20 seconds of Ring of Fire Dev Item (Idea from FriedFrogin).,,,,,,,,,,,,,,
+
+TwitchAction_Spawnanklebiters,twitch,Actions,,,Wolves,,,,,,,,,,,,,
+TwitchAction_SpawnanklebitersCommand,twitch,Actions,,,#spawn_anklebiters,,,,,,,,,,,,,,
+TwitchAction_SpawnanklebitersDesc,twitch,Actions,,,Spawns 7 mini wolves(Idea from Tinfoil_Tim_Gaming).,,,,,,,,,,,,,,
 
 TwitchAction_Buffpoopybutt,twitch,Actions,,,Dysentery,,,,,,,,,,,,,
 TwitchAction_BuffpoopybuttCommand,twitch,Actions,,,#poopybutt,,,,,,,,,,,,,,
@@ -8,10 +81,6 @@ TwitchAction_Buffbrokenleg,twitch,Actions,,,Broken leg,,,,,,,,,,,,,
 TwitchAction_BuffbrokenlegCommand,twitch,Actions,,,#brokenleg,,,,,,,,,,,,,,
 TwitchAction_BuffbrokenlegDesc,twitch,Actions,,,Gives a Broken Leg.,,,,,,,,,,,,,,
 
-TwitchAction_BuffELVISLegs,twitch,Actions,,,ELVIS Legs,,,,,,,,,,,,,
-TwitchAction_BuffELVISLegsCommand,twitch,Actions,,,#elvislegs,,,,,,,,,,,,,,
-TwitchAction_BuffELVISLegsDesc,twitch,Actions,,,Gives ELVIS Legs.,,,,,,,,,,,,,,
-
 TwitchAction_Spawnhellsangels,twitch,Actions,,,Biker Zombies,,,,,,,,,,,,,
 TwitchAction_SpawnhellsangelsCommand,twitch,Actions,,,#spawn_hellsangels,,,,,,,,,,,,,,
 TwitchAction_SpawnhellsangelsDesc,twitch,Actions,,,Spawns a Radiated Biker and 2 normal bikers (Idea from MorbidlyMorose).,,,,,,,,,,,,,,
@@ -20,9 +89,93 @@ TwitchAction_Spawnwhambulance,twitch,Actions,,,Medical Zombies,,,,,,,,,,,,,
 TwitchAction_SpawnwhambulanceCommand,twitch,Actions,,,#spawn_whambulance,,,,,,,,,,,,,,
 TwitchAction_SpawnwhambulanceDesc,twitch,Actions,,,Spawns 2 Feral Nurses and a Hazmat Zombie (Idea from MorbidlyMorose).,,,,,,,,,,,,,,
 
+TwitchAction_Buffsonic,twitch,Actions,,,Super Fast Buff,,,,,,,,,,,,,,
+TwitchAction_BuffsonicCommand,twitch,Actions,,,#sonic,,,,,,,,,,,,,,
+TwitchAction_BuffsonicDesc,twitch,Actions,,,Cancels [FFAFAF]Slow[-] if enabled on Target or Massively increases the running speed of the target and their party for 60 seconds.,,,,,,,,,,,,,,
+
+TwitchAction_Spawnsimon,twitch,Actions,,,Mega Crawler Zombie,,,,,,,,,,,,,
+TwitchAction_SpawnsimonCommand,twitch,Actions,,,#spawn_simon,,,,,,,,,,,,,,
+TwitchAction_SpawnsimonDesc,twitch,Actions,,,Spawns Simon the Killer Crawler.,,,,,,,,,,,,,,
+
+TwitchAction_Bufflooter,twitch,Actions,,,Lucky Looting,,,,,,,,,,,,,
+TwitchAction_BufflooterCommand,twitch,Actions,,,#looter,,,,,,,,,,,,,,
+TwitchAction_BufflooterDesc,twitch,Actions,,,90 Seconds of Eye Kandy.,,,,,,,,,,,,,,
+
+TwitchAction_Spawntrader,twitch,Actions,,,"Helpful" Traders,,,,,,,,,,,,,
+TwitchAction_SpawntraderCommand,twitch,Actions,,,#spawn_trader,,,,,,,,,,,,,,
+TwitchAction_SpawntraderDesc,twitch,Actions,,,Spawns a Rekt and Hugh zombie.,,,,,,,,,,,,,,
+
+TwitchAction_Spawnsbear,twitch,Actions,,,Screamer Bear,,,,,,,,,,,,,
+TwitchAction_SpawnsbearCommand,twitch,Actions,,,#spawn_screamerbear,,,,,,,,,,,,,,
+TwitchAction_SpawnsbearDesc,twitch,Actions,,,Spawns a Screamer Bear.,,,,,,,,,,,,,,
+
+TwitchAction_Spawnsnufkin,twitch,Actions,,,Snufkin Zombie,,,,,,,,,,,,,
+TwitchAction_SpawnsnufkinCommand,twitch,Actions,,,#spawn_snufkin,,,,,,,,,,,,,,
+TwitchAction_SpawnsnufkinDesc,twitch,Actions,,,Spawns a Snufkin Zombie.,,,,,,,,,,,,,,
+
+TwitchAction_Supplyhdgun,twitch,Actions,,,HD Weapons,,,,,,,,,,,,,
+TwitchAction_SupplyhdgunCommand,twitch,Actions,,,#supply_hdgun,,,,,,,,,,,,,,
+TwitchAction_SupplyhdgunDesc,twitch,Actions,,,Spawns a crate with an HD weapon.,,,,,,,,,,,,,,
+
+TwitchAction_Supplyhdammo,twitch,Actions,,,HD Ammo,,,,,,,,,,,,,
+TwitchAction_SupplyhdammoCommand,twitch,Actions,,,#supply_hdammo,,,,,,,,,,,,,,
+TwitchAction_SupplyhdammoDesc,twitch,Actions,,,Spawns a crate with hd ammo.,,,,,,,,,,,,,,
+
+TwitchAction_Supplyhdmed,twitch,Actions,,,HD Medical Kits,,,,,,,,,,,,,
+TwitchAction_SupplyhdmedCommand,twitch,Actions,,,#supply_hdmed,,,,,,,,,,,,,,
+TwitchAction_SupplyhdmedDesc,twitch,Actions,,,Spawns a crate with HD medical kits.,,,,,,,,,,,,,,
+
+TwitchAction_Supplyhdrepair,twitch,Actions,,,HD Repair Kits,,,,,,,,,,,,,
+TwitchAction_SupplyhdrepairCommand,twitch,Actions,,,#supply_hdrepair,,,,,,,,,,,,,,
+TwitchAction_SupplyhdrepairDesc,twitch,Actions,,,Spawns a crate with HD repair kits.,,,,,,,,,,,,,,
+
+TwitchAction_Spawndoggos,twitch,Actions,,,Special Dogs,,,,,,,,,,,,,
+TwitchAction_SpawndoggosCommand,twitch,Actions,,,#spawn_doggos,,,,,,,,,,,,,,
+TwitchAction_SpawnsdoggosDesc,twitch,Actions,,,Spawns Giant Undead Hounds.,,,,,,,,,,,,,,
+
 TwitchAction_Spawnmaxfox,twitch,Actions,,,Special Dogs,,,,,,,,,,,,,
 TwitchAction_SpawnmaxfoxCommand,twitch,Actions,,,#spawn_maxfox,,,,,,,,,,,,,,
 TwitchAction_SpawnmaxfoxDesc,twitch,Actions,,,Spawns a MaxFox.,,,,,,,,,,,,,,
+
+TwitchAction_Teleport,twitch,Actions,,,Teleport,,,,,,,,,,,,,
+TwitchAction_TeleportCommand,twitch,Actions,,,#teleport,,,,,,,,,,,,,,
+TwitchAction_TeleportDesc,twitch,Actions,,,Random teleport.,,,,,,,,,,,,,,
+
+TwitchAction_TeleportUp,twitch,Actions,,,Teleport,,,,,,,,,,,,,
+TwitchAction_TeleportUpCommand,twitch,Actions,,,#teleportup,,,,,,,,,,,,,,
+TwitchAction_TeleportUpDesc,twitch,Actions,,,Go up in the air.,,,,,,,,,,,,,,
+
+TwitchAction_survive,twitch,Actions,,,Waves of zombies,,,,,,,,,,,,,
+TwitchAction_surviveCommand,twitch,Actions,,,#survive,,,,,,,,,,,,,,
+TwitchAction_surviveDesc,twitch,Actions,,,Spawns 3 waves of zombies.,,,,,,,,,,,,,,
+
+TwitchAction_bunnybear,twitch,Actions,,,Transforming Bunnies,,,,,,,,,,,,,
+TwitchAction_bunnybearCommand,twitch,Actions,,,#bunnybear,,,,,,,,,,,,,,
+TwitchAction_bunnybearDesc,twitch,Actions,,,Kill the bunnies before they transform.,,,,,,,,,,,,,,
+
+TwitchAction_novehicle,twitch,Actions,,,No Vehicle Allowed,,,,,,,,,,,,,
+TwitchAction_novehicleCommand,twitch,Actions,,,#novehicle,,,,,,,,,,,,,,
+TwitchAction_novehicleDesc,twitch,Actions,,,Removes vehicle and places it on in a loot bag on the ground with it's inventory.,,,,,,,,,,,,,,
+
+TwitchAction_mecharmy,twitch,Actions,,,Mechs,,,,,,,,,,,,,
+TwitchAction_mecharmyCommand,twitch,Actions,,,#mecharmy,,,,,,,,,,,,,,
+TwitchAction_mecharmyDesc,twitch,Actions,,,The Mechs are arriving.,,,,,,,,,,,,,,
+
+TwitchAction_mechassault,twitch,Actions,,,Mechs,,,,,,,,,,,,,
+TwitchAction_mechassaultCommand,twitch,Actions,,,#mechassault,,,,,,,,,,,,,,
+TwitchAction_mechassaultDesc,twitch,Actions,,,The Mech uprising.,,,,,,,,,,,,,,
+
+TwitchAction_sleepover,twitch,Actions,,,Belles,,,,,,,,,,,,,
+TwitchAction_sleepoverCommand,twitch,Actions,,,#sleepover,,,,,,,,,,,,,,
+TwitchAction_sleepoverDesc,twitch,Actions,,,The Belles got together for a sleepover.,,,,,,,,,,,,,,
+
+TwitchAction_Supplystreamer,twitch,Actions,,,Streamer Items,,,,,,,,,,,,,
+TwitchAction_SupplystreamerCommand,twitch,Actions,,,#supply_streamer,,,,,,,,,,,,,,
+TwitchAction_SupplystreamerDesc,twitch,Actions,,,Random Streamer item.,,,,,,,,,,,,,,
+
+TwitchAction_ko,twitch,Actions,,,Knockout,,,,,,,,,,,,,
+TwitchAction_koCommand,twitch,Actions,,,#ko,,,,,,,,,,,,,,
+TwitchAction_koDesc,twitch,Actions,,,I get knocked out.,,,,,,,,,,,,,,
 
 TwitchAction_Spawnyogibear,twitch,Actions,,,SpecialBear,,,,,,,,
 TwitchAction_SpawnyogibearCommand,twitch,Actions,,,#spawn_yogibear,,,,,,,,
@@ -51,31 +204,3 @@ TwitchAction_SpawnduoDesc,twitch,Actions,,,Spawns a yogi and maxfox.,,,,,,,,,,,,
 TwitchAction_Spawntriplets,twitch,Actions,,,Trio of Rad Animals,,,,,,,,,,,,,
 TwitchAction_SpawntripletsCommand,twitch,Actions,,,#spawn_triplets,,,,,,,,,,,,,,
 TwitchAction_SpawntripletsDesc,twitch,Actions,,,Spawns a trio of rad bosses.,,,,,,,,,,,,,,
-
-TwitchAction_normhordeCommand,twitch,Actions,,,#spawn_normhorde,,,,,,,,,,,,,,
-TwitchAction_normhordeDesc,twitch,Actions,,,Spawns 4 normal zombies.,,,,,,,,,,,,,,
-TwitchAction_normhorde,twitch,Actions,,,Normal Zombies,,,,,,,,,,,,,,
-
-TwitchAction_Spawnboomers,twitch,Actions,,,Boomer Zombies,,,,,,,,,,,,,,
-TwitchAction_SpawnboomersCommand,twitch,Actions,,,#spawn_boomers,,,,,,,,,,,,,,
-TwitchAction_SpawnboomersDesc,twitch,Actions,,,Spawns 3 Cop or Demo Zombies.,,,,,,,,,,,,,,
-
-TwitchAction_Buffrocketman,twitch,Actions,,,Rocket Boots,,,,,,,,,,,,,
-TwitchAction_BuffrocketmanCommand,twitch,Actions,,,#rocketman,,,,,,,,,,,,,,
-TwitchAction_BuffrocketmanDesc,twitch,Actions,,,20 seconds of Rocket Boots (Idea from Zedtubegaming).,,,,,,,,,,,,,,
-
-TwitchAction_Spawnroulette,twitch,Actions,,,Try your luck,,,,,,,,,,,,,
-TwitchAction_SpawnrouletteCommand,twitch,Actions,,,#roulette,,,,,,,,,,,,,,
-TwitchAction_SpawnrouletteDesc,twitch,Actions,,,Spawns either a chicken a rabbit or a special Demolition Zombie.,,,,,,,,,,,,,,
-
-TwitchAction_BuffFried,twitch,Actions,,,Ring of Fire,,,,,,,,,,,,,
-TwitchAction_BuffFriedCommand,twitch,Actions,,,#fried,,,,,,,,,,,,,,
-TwitchAction_BuffFriedDesc,twitch,Actions,,,20 seconds of Ring of Fire Dev Item (Idea from FriedFrogin).,,,,,,,,,,,,,,
-
-TwitchAction_novehicle,twitch,Actions,,,No Vehicle Allowed,,,,,,,,,,,,,
-TwitchAction_novehicleCommand,twitch,Actions,,,#novehicle,,,,,,,,,,,,,,
-TwitchAction_novehicleDesc,twitch,Actions,,,Removes vehicle and places it on in a loot bag on the ground with it's inventory.,,,,,,,,,,,,,,
-
-TwitchAction_SpawnCapp,twitch,Actions,,,Stupid Birds,,,,,,,,,,,,,,
-TwitchAction_SpawnCappCommand,twitch,Actions,,,#spawn_capp,,,,,,,,,,,,,,
-TwitchAction_SpawnCappDesc,twitch,Actions,,,Spawns a horde of Stupid Birds.,,,,,,,,,,,,,,

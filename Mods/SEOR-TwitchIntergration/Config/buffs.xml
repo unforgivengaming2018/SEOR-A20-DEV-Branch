@@ -1,7 +1,6 @@
-<SEOR>
-<append xpath="/buffs">
-
-	<buff name="buffciIsOnFire">
+<configs>
+	<append xpath="/buffs">		
+		<buff name="buffciIsOnFire">
 			<damage_type value="Heat"/>
 			<stack_type value="ignore"/>
 			<duration value="0"/>
@@ -40,51 +39,86 @@
 
 			</effect_group>
 		</buff>	
-        
-        <buff name="ELVISLegs" Icon="ui_game_symbol_stunned" Icon_color="4,106,56">
-			<display_value value=".TwitchELVISLegsTimer"/>
-			<display_value_format value="time"/>
-		  
-			<effect_group name="Timers">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".TwitchELVISLegsTimer" operation="set" value="60"/>
-				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".TwitchELVISLegsTimer" operation="set" value="60"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".TwitchELVISLegsTimer" operation="add" value="-1"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="ELVISLegs" target="self">
-					<requirement name="CVarCompare" cvar=".TwitchELVISLegsTimer" operation="LTE" value="0" />
-				</triggered_effect>
-				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".TwitchELVISLegsTimer" operation="set" value="0"/>
-			</effect_group>
+		
+		<buff name="buffFried" icon="ui_game_symbol_fire" icon_color="200,200,0" remove_on_death="false">
+		<stack_type value="effect"/>
+		<duration value="20"/>
+		<display_value value=".TwitchFriedTimer"/>
+		<display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".TwitchFriedTimer" operation="set" value="20"/>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".TwitchFriedTimer" operation="set" value="20"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".TwitchFriedTimer" operation="add" value="-1"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".TwitchFriedTimer" operation="set" value="0"/>
 
-			<effect_group name="Trigger Ragdoll">
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="ELVISLegsRagdoll" target="self" />
-			</effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="buffFriedEffect">
+				<requirement name="!EntityTagCompare" target="other" tags="npc,vehicle,player,turret,drone"/>
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="FireMediumLoop" play_in_head="true"/>
+			<triggered_effect trigger="onSelfBuffStart" action="FadeOutSound" sound="FireMediumLoop" play_in_head="true"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="PlaySound" sound="forge_fire_die" play_in_head="true"/>
+		</effect_group>
 		</buff>
+		
+		<buff name="buffFriedEffect" icon="ui_game_symbol_fire" icon_color="255,0,0" icon_blink="true">
+		<damage_type value="heat"/>
+		<stack_type value="ignore"/>
+		<duration value="10"/>
+		<update_rate value="1.2"/>
+		<effect_group>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,10" value="0,400"/>
 
-    <buff name="ELVISLegsRagdoll" hidden="true">
-        <stack_type value="ignore" />
-        
-        <effect_group name="Halt Movement">
-            <passive_effect name="RunSpeed" operation="perc_set" value="0"/>
-            <passive_effect name="WalkSpeed" operation="perc_set" value="0"/>
-            <passive_effect name="CrouchSpeed" operation="perc_set" value="0"/>
-            <passive_effect name="JumpStrength" operation="perc_set" value="0"/>
-        </effect_group>        
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_onFire"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_onFire"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_onFire"/>
+		</effect_group>
+		</buff>
+		
+		<buff name="twitch_buffSonic" icon="ui_game_symbol_twitch_fast" icon_color="255,175,255">
+		<stack_type value="replace"/>
+		<duration value="30"/>
+		<display_value value=".TwitchSonicTimer"/>
+		<display_value_format value="time"/>
 
-        <effect_group name="Ragdoll every 3 seconds">
-            <triggered_effect trigger="onSelfBuffStart" action="Ragdoll" duration="1">
-                <requirement name="!EntityTagCompare" tags="trader"/>
-            </triggered_effect>
-        </effect_group>
+		<effect_group>
+			<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="twitch_buffSonic"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".TwitchSonicTimer" operation="set" value="30"/>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".TwitchSonicTimer" operation="set" value="30"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".TwitchSonicTimer" operation="add" value="-1"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".TwitchSonicTimer" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="RemoveBuff" buff="twitch_buffSonic"/>
+		</effect_group>
 
-        <effect_group name="Remove after ragdoll">
-            <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".ELVISLegsCooldown" operation="set" value="8" />
-            <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ELVISLegsCooldown" operation="add" value="-1" />
-            <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="ELVISLegsRagdoll" target="self">
-                <requirement name="CVarCompare" cvar=".ELVISLegsCooldown" operation="LTE" value="0" />
-            </triggered_effect>
-        </effect_group>
-    </buff>
-        
+		<effect_group>
+			<passive_effect name="WalkSpeed" operation="base_set" value="2.0"/>
+			<passive_effect name="RunSpeed" operation="base_set" value="4.0"/>
 
-</append>
-</SEOR>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="1" tags="running"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffDrugLoot" name_key="drugEyeKandy" description_key="drugEyeKandyDesc" icon="ui_game_symbol_candy_eye_candy">
+		<stack_type value="replace"/><duration value="90"/>
+		<display_value value=".buffDrugEyeKandyDisplay"/><display_value_format value="time"/>
+		<!-- Find that sparkling treasure easier with a drop of Eye Kandy. Increases perception 2 points for 2 minutes. Find much better loot. (add 35 to loot stage) -->
+		<effect_group>
+			<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffDrugLoot"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".buffDrugEyeKandyDisplay" operation="set" value="90"/>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".buffDrugEyeKandyDisplay" operation="set" value="90"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffDrugEyeKandyDisplay" operation="add" value="-1"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffDrugEyeKandyDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="RemoveBuff" buff="buffDrugLoot"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="LootGamestage" operation="base_add" value="5"/>
+			<passive_effect name="LootGamestage" operation="perc_add" value=".1"/>
+		</effect_group>
+	</buff>
+		
+		
+		</append>
+</configs>
+
+
+

@@ -1,0 +1,10 @@
+<mod>
+	<info>
+		<author>dr_alejandro89/War3zukedit</author>
+		<name>Z Twitch Int Mod</name>
+		<description>Allows modding of twitch chat integration for War3zuk</description>
+		<mod_version>1.8.2</mod_version>
+		<game_version>20</game_version>
+		<launcher_version>0.0.0</launcher_version>
+	</info>
+</mod>
