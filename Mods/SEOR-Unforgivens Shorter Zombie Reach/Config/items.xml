@@ -1,5 +1,0 @@
-<SEOR>
-<setattribute xpath="//item[@name='meleeHandMaster']//property[starts-with(@name='Range']">value="1.2"</setattribute>
-
-
-</SEOR>
