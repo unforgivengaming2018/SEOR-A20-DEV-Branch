@@ -65,7 +65,7 @@
 	<!-- Weapons -->
 	
 	<!-- Blunt -->
-	<append xpath="/items/item[@name='eleeWpnClubT0WoodenClub']">	
+	<append xpath="/items/item[@name='meleeWpnClubT0WoodenClub']">	
 		<effect_group name="Action Skills">
 			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="10">
 					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
@@ -101,6 +101,7 @@
 		</effect_group>
 	</append>
 	
+	<!--SledgeHammers-->
 	
 	
 	<append xpath="/items/item[@name='meleeWpnSledgeT0StoneSledgehammer']">
@@ -121,7 +122,7 @@
 		</effect_group>
 	</append>
 
-	<append xpath="/items/item[@name'meleeWpnSledgeT1IronSledgehammer']">
+	<append xpath="/items/item[@name'meleeWpnSledgeT3SteelSledgehammer']">
 	 <effect_group name="Action Skills">
 			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="AS_Blunt_XP" operation="add" value="15">
 					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
