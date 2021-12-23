@@ -13,7 +13,7 @@
  
     <objective type="FetchKeep" id="resourceCloth" value="5" phase="1"/>
     <objective type="FetchKeep" id="resourceYuccaFibers" value="6" phase="1"/>
-    <objective type="FetchKeep" id="resourceGlue" value="1" phase="1"/>
+    <objective type="FetchKeep" id="resourceGlue" value="2" phase="1"/>
     <objective type="Craft">
         <property name="phase" value="2"/>
         <property name="item" value="backpackT1"/>
