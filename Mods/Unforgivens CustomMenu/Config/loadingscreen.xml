@@ -11,10 +11,11 @@
   <set xpath="/doc/backgrounds/tex[4]/@file">@modfolder:Textures/loadingscreen07.png</set>
   <set xpath="/doc/backgrounds/tex[4]/@file">@modfolder:Textures/loadingscreen08.png</set>
   <set xpath="/doc/backgrounds/tex[4]/@file">@modfolder:Textures/loadingscreen09.png</set>
-
+  <!--<set xpath="/doc/backgrounds/tex[4]/@file">@modfolder:Textures/loadingscreen010.png</set> -->
+  <set xpath="/doc/background/tex[4]/@file">@modfolder:Textures/loadingscreen011.png</set>
   <append xpath="/doc/backgrounds">
-    <tex file="@modfolder:Textures/loadingscreen01.png" />
-    <tex file="@modfolder:Textures/loadingscreen02.png" />
+  <tex file="@modfolder:Textures/loadingscreen01.png" />
+  <tex file="@modfolder:Textures/loadingscreen02.png" />
 	<tex file="@modfolder:Textures/loadingscreen03.png" />
 	<tex file="@modfolder:Textures/loadingscreen04.png" />
 	<tex file="@modfolder:Textures/loadingscreen05.png" />
@@ -22,6 +23,8 @@
 	<tex file="@modfolder:Textures/loadingscreen07.png" />
 	<tex file="@modfolder:Textures/loadingscreen08.png" />
   <tex file="@modfolder:Textures/loadingscreen09.png" />
+  <!--<tex file="@modfolder:Textures/loadingscreen010.png" /> -->
+  <tex file="@modfolder:Textures/loadingscreen011.png" />
   </append>
 
 </doc>
