@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Accurate ADS" />
-		<Description value="This makes aiming down sights completely accurate for all weapons except shotguns." />
-		<Author value="M17Woodley" />
+		<Name value="Unforgivens 2x Spawns" />
+		<Description value="This makes spawns Spawn at 2x." />
+		<Author value="Unforgiven774" />
 		<Version value="1.0.0" />
-		<Website value="https://community.7daystodie.com/topic/25196-server-side-accurate-ads/" />		
+		<Website value="" />		
 	</ModInfo>
 </xml>
