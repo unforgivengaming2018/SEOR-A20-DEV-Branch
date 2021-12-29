@@ -12,8 +12,7 @@
 	<Precipitation min="50" max="100" prob=".75"/>
 	<Wind min="20" max="40" prob="1"/>
 	<Wind min="40" max="100" prob="1.9"/>
-	<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="7"/>
-</set>
+	</set> 
 <!--This sets Weather in The wasteland biome to randomize the weather it gets -->
 <set xpath="//biome[@name='wasteland']/weather">
 	<Temperature min="60" max="120" prob="1"/>

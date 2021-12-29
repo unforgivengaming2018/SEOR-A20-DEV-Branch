@@ -8,8 +8,8 @@
 #########################
 - - - - - - - - - - - -->
 <configs>
-<!-- Inventar (inventory) -->
-<!--byDonovan-->
+<!-- Inventory -->
+<!--byUnforgiven774-->
 <set xpath="/windows/window[@name='windowBackpack']/@width">473</set>
 <set xpath="/windows/window[@name='windowBackpack']/@height">316</set>
 <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/@height">370</set>
