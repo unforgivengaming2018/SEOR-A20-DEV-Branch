@@ -25,6 +25,8 @@
 
     </append>
 
+<!-- This adds Radiated animals to the wasteland biome which will make rad zone a bit more deadlier-->
+
     <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
 		<entity name="animalSnakeRad" prob="0.05"/>
 		<entity name="animalQueenSosa" prob="0.05"/>
