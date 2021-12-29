@@ -3,17 +3,17 @@
 <configs>
 
     <!-- All Biome Spawns Except Wasteland x3 -->
-    <set xpath="/spawning/biome[not (@name='wasteland')]/spawn/@maxcount">2</set>
+    <set xpath="/spawning/biome[not (@name='wasteland')]/spawn/@maxcount">3</set>
 
     <!-- Biome Wasteland x3 -->
-    <set xpath="/spawning/biome[not (@name='wasteland')]/spawn/@maxcount">2</set>
+    <set xpath="/spawning/biome[not (@name='wasteland')]/spawn/@maxcount">4</set>
 
     <!-- Dogs Barns x3 -->
     <set xpath="/spawning/entityspawner[@name='Dog_Sm_Territorial']/day/property[@name='TotalAlive']/@value">3</set>
 
     <!-- Farm x3 -->
-    <set xpath="/spawning/entityspawner[@name='Farm_Med_Territorial']/day/property[@name='TotalAlive']/@value">2</set>
-    <set xpath="/spawning/entityspawner[@name='Farm_Med_Territorial']/day/property[@name='TotalPerWave']/@value">2</set>
+    <set xpath="/spawning/entityspawner[@name='Farm_Med_Territorial']/day/property[@name='TotalAlive']/@value">3</set>
+    <set xpath="/spawning/entityspawner[@name='Farm_Med_Territorial']/day/property[@name='TotalPerWave']/@value">3</set>
 
     <!-- Zombie Soldier x2 -->
     <set xpath="/spawning/entityspawner[@name='Zombie_Soldier_Med_Territorial']/day/property[@name='TotalAlive']/@value">6</set>
