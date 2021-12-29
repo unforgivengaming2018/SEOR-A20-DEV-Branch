@@ -1,0 +1,7 @@
+<XML>
+<!--- This adds Acid to be crafted by advanced Engineering at level 1 -->
+<append xpath="//item[@name='resourceAcid']">
+  <property name="UnlockedBy" value="perkAdvancedEngineering"/>
+</append>
+
+</XML>
