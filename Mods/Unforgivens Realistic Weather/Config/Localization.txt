@@ -1,0 +1,4 @@
+Key,Source,English
+buffRadiationName,buffs,Radiation
+buffRadiationDesc,buffs,You are in a radiation zone. Equip a hazmat suit or turn back.
+buffRadiationTooltip,You have entered a radiation zone. Equip a hazmat suit or turn back.
