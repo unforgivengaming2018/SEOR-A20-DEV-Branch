@@ -18,5 +18,5 @@
 <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@rows">7</set>
 <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cols">10</set>
 <set xpath="/windows/window[@name='windowCraftingQueue']/rect/@pos">10,0</set>
-<set xpath="/windows/window[@name='windowCraftingQueue']/rect/grid/@cols">15</set>
+<set xpath="/windows/window[@name='windowCraftingQueue']/rect/grid/@cols">5</set>
 </configs>
