@@ -24,4 +24,17 @@
 -
 
     </append>
+
+    <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
+		<entity name="animalSnakeRad" prob="0.05"/>
+		<entity name="animalQueenSosa" prob="0.05"/>
+		<entity name="animalKingBones" prob="0.1"/>
+		<entity name="animalBossCommanche" prob="0.1"/>
+		<entity name="animalCommancheBM" prob="0.00001"/>
+		<entity name="animalDragonWolfRad" prob="0.1"/>
+		<entity name="animalDragonWolfRadBM" prob="0.00001"/>
+		<entity name="animalMaxFoxRadBM" prob="0.00001"/>
+		<entity name="animalYogiBearRad" prob="0.1"/>
+		<entity name="animalYogiBearRadBM" prob="0.00005"/>		
+	</append>
 </SEOR>
