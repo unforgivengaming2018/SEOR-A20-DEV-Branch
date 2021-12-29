@@ -28,15 +28,13 @@
 <!-- This adds Radiated animals to the wasteland biome which will make rad zone a bit more deadlier-->
 
     <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
-		<entity name="animalSnakeRad" prob="1.5"/>
-		<entity name="animalQueenSosa" prob="1.5"/>
-		<entity name="animalKingBones" prob="1.1"/>
-		<entity name="animalBossCommanche" prob="0.1"/>
-		<entity name="animalCommancheBM" prob="0.00001"/>
-		<entity name="animalDragonWolfRad" prob="1.1"/>
-		<entity name="animalDragonWolfRadBM" prob="0.00001"/>
-		<entity name="animalMaxFoxRadBM" prob="0.00001"/>
-		<entity name="animalYogiBearRad" prob="1.1"/>
-		<entity name="animalYogiBearRadBM" prob="0.00005"/>		
+		<entity name="animalSnakeRad" prob="2.5" />
+		<entity name="animalQueenSosa" prob="2.5" />
+		<entity name="animalKingBones" prob="2.5"/>
+		<entity name="animalBossCommanche" prob="2.5 "/>
+		<entity name="animalDragonWolfRad" prob="2.5"/>
+		<entity name="animalMaxFoxRad" prob="2.5" />
+		<entity name="animalYogiBearRad" prob="2.5" />
+			
 	</append>
 </SEOR>
