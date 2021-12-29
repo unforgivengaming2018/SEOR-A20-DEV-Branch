@@ -204,3 +204,7 @@ TwitchAction_SpawnduoDesc,twitch,Actions,,,Spawns a yogi and maxfox.,,,,,,,,,,,,
 TwitchAction_Spawntriplets,twitch,Actions,,,Trio of Rad Animals,,,,,,,,,,,,,
 TwitchAction_SpawntripletsCommand,twitch,Actions,,,#spawn_triplets,,,,,,,,,,,,,,
 TwitchAction_SpawntripletsDesc,twitch,Actions,,,Spawns a trio of rad bosses.,,,,,,,,,,,,,,
+
+TwitchAction_BuffELVISLegs,twitch,Actions,,,ELVIS Legs,,,,,,,,,,,,,
+TwitchAction_BuffELVISLegsCommand,twitch,Actions,,,#elvislegs,,,,,,,,,,,,,,
+TwitchAction_BuffELVISLegsDesc,twitch,Actions,,,Gives ELVIS Legs.,,,,,,,,,,,,,,
