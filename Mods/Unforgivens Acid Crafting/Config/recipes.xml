@@ -1,11 +1,18 @@
 <XML>
 <append xpath="/recipes">
-<recipe name="resourceAcid" count="1" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+<recipe name="resourceAcid" count="1" craft_area="campfire" tags="perkAdvancedEngineering.chemStationCrafting">
 <ingredient name="resourceCoal" count="5"/>
 <ingredient name="resourcePotassiumNitratePowder" count="5"/>
 <ingredient name="resourceGlue" count="5"/>
 </recipe>
 </append>
 
+<append xpath="/recipes">
+<recipe name="resourceAcid" count="1" craft_area="chemistryStation" tags="perkAdvancedEngineering.chemStationCrafting">
+<ingredient name="resourceCoal" count="5"/>
+<ingredient name="resourcePotassiumNitratePowder" count="5"/>
+<ingredient name="resourceGlue" count="5"/>
+</recipe>
 
+</append>
 </XML>
