@@ -19,7 +19,7 @@
     <entity name="animalKingBones" prob="0.3" count="5" />
     <entity name="animalQueenSosa" prob="0.3" count="5"/>
     <entity name="animalSnakeRad" prob="0.3" count="5"/>
-    
+    <entity name="animalOttomaticBearRad" prob="2.5"/>
     
 -
 
@@ -35,6 +35,8 @@
 		<entity name="animalDragonWolfRad" prob="2.5"/>
 		<entity name="animalMaxFoxRad" prob="2.5" />
 		<entity name="animalYogiBearRad" prob="2.5" />
+        <entity name="animalOttomaticBearRad" prob="2.5"/>
+
 			
 	</append>
 </SEOR>

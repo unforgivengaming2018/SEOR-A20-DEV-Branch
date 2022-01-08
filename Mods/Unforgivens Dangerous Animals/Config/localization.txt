@@ -6,4 +6,5 @@ animalBossCommanche,entityclasses,zombie,,"Commanche"
 animalYogiBearRad,entityclasses,zombie,,"Jonahs Pet"
 animalDragonWolfRad,entityclasses,zombie,,"DragonWolfDarkMatter"
 animalSnakeRad,entityclasses,zombie,,"SnakesOnAPlane"
+animalOttomaticBearRad,entityclasses,zombie,,"Ottomatics Pet"
 
