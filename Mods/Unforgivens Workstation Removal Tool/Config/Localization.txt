@@ -1,0 +1,3 @@
+Key,Source,Context,Changes,English,,,,,
+meleeToolWorkstationRemovalToolSEOR,Items,Tools,New,"Workstation Removal Tool",,,,
+meleeToolWorkstationRemovalToolSEORDesc,Items,Tools,New,"Allows you to Repair WOrkstations in the world and use them in your base as proper workstations Enjoy!",,,,

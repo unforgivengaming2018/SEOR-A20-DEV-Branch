@@ -1,0 +1,9 @@
+	<xml>
+		<ModInfo>
+			<Name value="Unforgivens Workstation Removal Tool"/>
+			<Description value="Allows you to Repair and Pick up Workstations in the world that are broken"/>
+			<Author value="Unforgiven774"/>
+			<Version value="Alpha 20"/>
+			<Website value=""/>
+		</ModInfo>
+	</xml>
