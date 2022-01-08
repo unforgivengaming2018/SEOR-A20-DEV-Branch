@@ -1,0 +1,11 @@
+<SEOR>
+<append xpath="/recipes">
+<recipe name="meleeToolWorkstationRemovalToolSEOR" count="1" craft_area="workbench" craft_time="120">>
+<ingredient name="resourceForgedSteel" count="25">
+<ingredient name="resourceRepairKit" count="5">
+<ingredient name="meleeToolRepairT1ClawHammer" count="2">
+
+
+
+</append>
+</SEOR>
