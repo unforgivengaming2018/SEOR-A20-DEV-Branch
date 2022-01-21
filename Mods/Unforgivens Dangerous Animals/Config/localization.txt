@@ -1,10 +1,10 @@
 Key,Source,Context,Changes,English
-zombieMaxFoxRad,entityclasses,zombie,,,"Max Fox"
-animalQueenSosa,entityclasses,zombie,,"QueenSosa"
-animalKingBones,entityclasses,zombie.."KingBones",,
-animalBossCommanche,entityclasses,zombie,,"Commanche"
-animalYogiBearRad,entityclasses,zombie,,"Jonahs Pet"
-animalDragonWolfRad,entityclasses,zombie,,"DragonWolfDarkMatter"
-animalSnakeRad,entityclasses,zombie,,"SnakesOnAPlane"
-animalOttomaticBearRad,entityclasses,zombie,,"Ottomatics Pet"
-
+animalHellsJanitorRad,entityclasses,zombie,,"Hells Janitor",,
+animalQueenSosa,entityclasses,zombie,,"Queen Sosa",,
+animalKingBones,entityclasses,zombie,,"King Bones",,
+animalBossCommanche,entityclasses,zombie,,"Commanche",,
+animalJonahsPetRad,entityclasses,zombie,,"Jonahs Pet",,
+animalDragonWolfRad,entityclasses,zombie,,"Dragon Wolf",,
+animalSnakeRad,entityclasses,zombie,,"Danger Noodles",,
+animalOttosPetRad,entityclasses,,zombie,,"Ottos Pet",,
+animalACTigerRad,entityclasses,zombie,,"AC Tiger",,
