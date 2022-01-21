@@ -2,7 +2,7 @@
 <append xpath="/items">
 <item name="meleeToolWorkstationRemovalToolSEOR">
 	<property name="Tags" value="melee,light,tool,repairTool,longshaft,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic"/>
-    <property name="CucstomIcon" value="meleeToolRepairT1ClawHammer"/>
+    <property name="CucstomIcon" value="meleeToolWorkstationRemovalToolSEOR"/>
 	<property name="DisplayType" value="meleeRepairTool"/>
 	<property name="HoldType" value="32"/>
 	<property name="Meshfile" value="#Other/Items?Tools/hammerPrefab.prefab"/>
