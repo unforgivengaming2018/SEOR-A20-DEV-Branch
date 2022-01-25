@@ -1,0 +1,11 @@
+<XML>
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='95']"> 
+
+<lootcontainer id="96" name="labEquipment" count="1,2" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate"> 
+	  <item name="modGunMeleeBlessedMetalSchematic" count="1"/>
+    <item name="modGunMeleeBlessedMetal" count="1"/>
+ </lootcontainer>
+
+
+</insertAfter>
+</XML>

@@ -257,7 +257,7 @@
 			</effect_group>
 		</entity_class>
 		
-       <entity_class name="animalOttosPetRad" extends="animalBear">
+       <entity_class name="animalOttoRad" extends="animalBear">
 			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
 			<property name="Class" value="EntityZombieCop"/>
 			<property name="EntityType" value="Zombie"/>

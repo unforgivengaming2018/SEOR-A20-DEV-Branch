@@ -585,10 +585,28 @@
 	</action_sequence>
 
 	
-	<action_sequence name="spawn_maxfox">
+   <action_sequence name="spawn_actiger">
 		
 		<action class="SpawnEntity">
-			<property name="entity_names" value="animalMaxFoxRad" />
+			<property name="entity_names" value="animalACTigerRad" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="mlionalert" />
+			<property name="phase" value="1" />
+		</action>
+     </action_sequence>
+
+
+	<action_sequence name="spawn_hellsjanitor">
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalHellsJanitorRad" />
 		</action>
 		
 		<action class="PlaySound">
@@ -629,10 +647,10 @@
 		
 	</action_sequence>
 
-    <action_sequence name="spawn_yogibear">
+    <action_sequence name="spawn_jonahspet">
 		
 		<action class="SpawnEntity">
-			<property name="entity_names" value="animalYogiBearRad" />
+			<property name="entity_names" value="animalJonahsPetRad" />
 		</action>
 		
 		<action class="PlaySound">
@@ -665,16 +683,31 @@
 	</action_sequence>
 
 
+  <action_sequence name="spawn_otto">
+	 <action class="SpawnEntity">
+	 <property name="entity_names" value="animalOttoRad"/>
+	 </action>
 
+     <action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="PlaySound">
+			<property name="sound" value="bearalert" />
+			<property name="phase" value="1" />
+		</action>
+		
+	</action_sequence>
 
 
 	<action_sequence name="spawn_duo">
 		
 		<action class="SpawnEntity">
-			<property name="entity_names" value="animalYogiBearRad" />
+			<property name="entity_names" value="animalJonahsPetRad" />
 		</action>
 		<action class="SpawnEntity">
-		<property name="entity_names" value="animalMaxFoxRad"/>
+		<property name="entity_names" value="animalOttoRad"/>
 		</action>
 
 		<action class="PlaySound">
@@ -683,7 +716,7 @@
 		</action>
 		
 		<action class="PlaySound">
-			<property name="sound" value="dogalert" />
+			<property name="sound" value="bearalert" />
 			<property name="phase" value="1" />
 		</action>
 		

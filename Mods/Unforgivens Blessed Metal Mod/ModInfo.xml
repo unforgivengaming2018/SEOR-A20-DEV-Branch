@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Blessed Metal Mod" />
+		<Description value="Adds Bless metal Mod To Loot and to the workbench as a recipe" />
+		<Author value="Unforgiven774" />
+		<Version value="Alpha 20" />
+		<Website value="" />
+	</ModInfo>
+</xml>

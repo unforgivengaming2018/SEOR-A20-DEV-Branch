@@ -133,9 +133,13 @@ TwitchAction_Spawndoggos,twitch,Actions,,,Special Dogs,,,,,,,,,,,,,
 TwitchAction_SpawndoggosCommand,twitch,Actions,,,#spawn_doggos,,,,,,,,,,,,,,
 TwitchAction_SpawnsdoggosDesc,twitch,Actions,,,Spawns Giant Undead Hounds.,,,,,,,,,,,,,,
 
-TwitchAction_Spawnmaxfox,twitch,Actions,,,Special Dogs,,,,,,,,,,,,,
-TwitchAction_SpawnmaxfoxCommand,twitch,Actions,,,#spawn_maxfox,,,,,,,,,,,,,,
-TwitchAction_SpawnmaxfoxDesc,twitch,Actions,,,Spawns a MaxFox.,,,,,,,,,,,,,,
+TwitchAction_Spawnhellsjanitor,twitch,Actions,,,Special Dogs,,,,,,,,,,,,,
+TwitchAction_SpawnhellsjanitorCommand,twitch,Actions,,,#spawn_hellsjanitor,,,,,,,,,,,,,,
+TwitchAction_SpawnhellsjanitorDesc,twitch,Actions,,,Spawns Hells Janitor.,,,,,,,,,,,,,,
+
+TwitchAction_Spawnactiger,twitch,Actions,,,Special Kitty,,,,,,,,,,,,,
+TwitchAction_SpawnactigerCommand,twitch,Actions,,,#spawn_actiger,,,,,,,,,,,,,,
+TwitchAction_SpawnactigerDesc,twitch,Actions,,,Spawns A Special Murder Kitty.,,,,,,,,,,,,,,
 
 TwitchAction_Teleport,twitch,Actions,,,Teleport,,,,,,,,,,,,,
 TwitchAction_TeleportCommand,twitch,Actions,,,#teleport,,,,,,,,,,,,,,
@@ -178,8 +182,8 @@ TwitchAction_koCommand,twitch,Actions,,,#ko,,,,,,,,,,,,,,
 TwitchAction_koDesc,twitch,Actions,,,I get knocked out.,,,,,,,,,,,,,,
 
 TwitchAction_Spawnyogibear,twitch,Actions,,,SpecialBear,,,,,,,,
-TwitchAction_SpawnyogibearCommand,twitch,Actions,,,#spawn_yogibear,,,,,,,,
-TwitchAction_SpawnyogibearDesc,twitch,Actions,,,A Special Yogi That gives a surprise,,,,,,,,
+TwitchAction_SpawnjonahspetCommand,twitch,Actions,,,#spawn_jonahspet,,,,,,,,
+TwitchAction_SpawnjonahspetDesc,twitch,Actions,,,A Special Yogi That gives a surprise,,,,,,,,
 
 TwitchAction_Spawndragonwolf,twitch,Actions,,,SpecialWolf
 TwitchAction_SpawndragonwolfCommand,twitch,Actions,,,#spawn_dragonwolf,,,,,,
@@ -199,7 +203,7 @@ TwitchAction_SpawnsimonDesc,twitch,Actions,,,Spawns Simon the Killer Crawler.,,,
 
 TwitchAction_Spawnduo,twitch,Actions,,,Pair of Rad Animals,,,,,,,,,,,,,
 TwitchAction_SpawnduoCommand,twitch,Actions,,,#spawn_duo,,,,,,,,,,,,,,
-TwitchAction_SpawnduoDesc,twitch,Actions,,,Spawns a yogi and maxfox.,,,,,,,,,,,,,,
+TwitchAction_SpawnduoDesc,twitch,Actions,,,Spawns Jonahspet and his son Otto.,,,,,,,,,,,,,,
 
 TwitchAction_Spawntriplets,twitch,Actions,,,Trio of Rad Animals,,,,,,,,,,,,,
 TwitchAction_SpawntripletsCommand,twitch,Actions,,,#spawn_triplets,,,,,,,,,,,,,,

@@ -1,0 +1,14 @@
+<XML>
+
+<!--This adds The Bless metal mod as a craftable item in game That is commented out in the Recipes XML -->
+
+<append xpath="/recipes">
+<recipe name="modGunMeleeBlessedMetal" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="5"/>
+	<ingredient name="resourceGlue" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+</append>
+
+</XML>
