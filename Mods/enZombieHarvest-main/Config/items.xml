@@ -1,0 +1,149 @@
+<ErrorNull>
+
+<append xpath="/items">
+
+
+	<!-- *********************************************************** -->
+	<!-- ********** CUSTOM GEAR HARVESTABLE FROM ZOMBIES *********** -->
+	<!-- *********************************************************** -->
+
+	<!-- Wielded by enSnowSanta and Santa enSnowSantaHelper -->
+	<!-- stats are in between bone knife and hunting knife, but economic value is reduced to 10 and max degradation is reduced -->
+	<item name="enWornCandyKnife"> 
+		<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
+		<property name="CustomIcon" value="meleeWpnBladeT1CandyKnife"/>
+		<property name="DisplayType" value="meleeKnife"/>
+		<property name="HoldType" value="36"/>
+		<property name="Meshfile" value="#Other/Items?Weapons/Melee/Candycane/candycaneShivPrefab.prefab"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="RepairTools" value="resourceRepairKit"/>
+		<property name="DegradationBreaksAfter" value="false"/>
+		<property name="EconomicValue" value="10"/>
+		<property name="SoundJammed" value="ItemNeedsRepair"/>
+		<property name="SoundDestroy" value="wooddestroy1"/>
+		<property name="ShowQuality" value="true"/>
+
+		<property class="Action0">
+			<property name="Class" value="DynamicMelee"/>
+			<property name="Damage_type" value="Slashing"/>
+			<property name="Sphere" value=".1"/>
+			<property name="Sound_start" value="swoosh"/>
+			<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+			<property name="ToolCategory.Butcher" value="0" param1="5"/>
+			<property name="UseGrazingHits" value="true"/>
+			<property name="GrazeStart" value=".25"/>
+			<property name="GrazeEnd" value=".35"/>
+			<property name="SwingDegrees" value="90"/>
+			<property name="SwingAngle" value="90"/>
+			<property class="HitSounds">
+				<property name="Override0" value="organic" param1="metalstaborganic"/>
+			</property>
+			<property class="GrazeSounds">
+				<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+			</property>
+		</property>
+		<property class="Action1">
+			<property name="Class" value="DynamicMelee"/>
+			<property name="Damage_type" value="Slashing"/>
+			<property name="Sphere" value=".1"/>
+			<property name="Sound_start" value="swoosh"/>
+			<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+			<property name="ToolCategory.Butcher" value="0" param1="4.5"/>
+			<property name="UsePowerAttackAnimation" value="true"/>
+			<property name="UseGrazingHits" value="true"/>
+			<property name="GrazeStart" value=".2"/>
+			<property name="GrazeEnd" value=".3"/>
+			<property name="SwingDegrees" value="80"/>
+			<property name="SwingAngle" value="140"/>
+			<property class="HitSounds">
+				<property name="Override0" value="organic" param1="metalstaborganic"/>
+			</property>
+			<property class="GrazeSounds">
+				<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+			</property>
+		</property>
+
+		<effect_group name="enWornCandyKnife">
+			<passive_effect name="EntityDamage" operation="base_set" value="5.4,5.8" tags="perkDeepCuts,knife"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="4.6" tags="perkDeepCuts"/>
+			<passive_effect name="AttacksPerMinute" operation="base_set" value="120" tags="perkDeepCuts,perkFlurryOfBlows"/>
+			<passive_effect name="StaminaLoss" operation="base_set" value="7.7" tags="primary"/>
+			<passive_effect name="DegradationMax" operation="base_set" value="250,500" tier="1,6" tags="perkDeepCuts"/>
+			<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeepCuts"/>
+			<passive_effect name="MaxRange" operation="base_set" value="2.0" tags="perkDeepCuts"/>
+			<passive_effect name="BlockRange" operation="base_set" value="2.5" tags="perkDeepCuts"/>
+			<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+			<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+			<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeepCuts"/> 
+			<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeepCuts"/> 
+			<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkDeepCuts"/> 
+			<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeepCuts"/> 
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="stone"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".6" tags="organic"/>
+			<passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
+		</effect_group>
+		<effect_group name="Power Attack">
+			<passive_effect name="EntityDamage" operation="base_add" value="5.5" tags="secondary"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
+			<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
+			<passive_effect name="AttacksPerMinute" operation="base_add" value="-60" tags="secondary"/>
+			<passive_effect name="StaminaLoss" operation="base_set" value="11.6" tags="secondary"/>
+		</effect_group>
+		<effect_group name="sneak damage bonus">
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+				<passive_effect name="DamageBonus" operation="base_add" value="4"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="4" tags="perkDeepCuts"/>
+				<display_value name="dEntityDamageSneak" value="4"/>
+		</effect_group>
+		<property name="Group" value="Ammo/Weapons,Melee Weapons"/>
+		<property name="RepairExpMultiplier" value="5.5"/>
+	</item>
+
+	
+	<!-- used armorClothHat as the base and added HypothermalResist -->
+	<!-- economic value is reduced to 10 and max degradation is reduced -->
+	<item name="enWornSantaHat"> 
+		<property name="Tags" value="head,armor,armorHead,lightArmor,padded,canHaveCosmetic,lightArmorDeg"/>
+		<property name="CustomIcon" value="armorSantaHat"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="DisplayType" value="armorLight"/>
+		<property name="Material" value="Mcloth"/>
+		<property name="RepairTools" value="resourceCloth"/>
+		<property name="DegradationBreaksAfter" value="false"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Group" value="Clothing,Armor,TCArmor"/>
+		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="EconomicValue" value="10"/>
+		<property name="ShowQuality" value="true"/>
+		<property name="EquipSlot" value="Head"/>
+		<effect_group name="cloth armor">
+			<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+			<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+			<passive_effect name="DegradationMax" operation="base_set" value="50,100" tier="1,6"/>
+			<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="lightArmorDeg"/>
+			<display_value name="dStaminaChangeOT" value="0"/>
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="5.1,7.3" tier="1,6"/>
+			<passive_effect name="ElementalDamageResist" operation="base_add" value="5.1,7.3" tier="1,6" tags="heat,electrical"/>
+			<passive_effect name="BuffResistance" operation="base_add" value="0.041" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,critResistDisplay"/>
+			<passive_effect name="HypothermalResist" operation="base_add" value="5.0,7.0"/>
+		</effect_group>
+		<property class="UMA">
+			<property name="Mesh" value="armor_cloth_hood"/>
+			<property name="Overlay0" value="armor_cloth_hood"/>
+			<property name="Layer" value="2"/>
+			<property name="UISlot" value="Headgear"/>
+			<property name="Mask0" value="Head" param1="inner"/>
+			<property name="Mask1" value="Head" param1="outer"/>
+		</property>
+	</item>
+
+
+</append>
+
+</ErrorNull>

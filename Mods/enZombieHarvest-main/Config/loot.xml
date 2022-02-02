@@ -1,0 +1,221 @@
+<ErrorNull>
+
+<append xpath="/lootcontainers">	
+
+<lootqualitytemplates>
+	<lootqualitytemplate name="EnQualityTemplate">
+		<qualitytemplate level="0,999999"></qualitytemplate>
+	</lootqualitytemplate>
+</lootqualitytemplates>
+
+
+<!-- ****************************************** -->
+<!-- ***** Loot specific to item category ***** -->
+<!-- ****************************************** -->
+
+<lootgroup name="LootJunk" count="1,2" level="0,999999">
+	<item name="resourceCloth"		count="1"/>
+	<item name="resourceCloth"		count="1"/>
+	<item name="resourcePaper"		count="1"/>
+	<item name="resourcePaper"		count="1"/>
+</lootgroup>
+
+<lootgroup name="LootMeatSmall" count="1" level="0,999999">
+	<item name="foodRawMeat"		count="9,15"/>
+</lootgroup>
+
+<lootgroup name="LootCashSmall" count="1" level="0,999999">
+	<item name="oldCash"			count="1,10"/>
+</lootgroup>
+
+<lootgroup name="LootCashMedium" count="1" level="0,999999">
+	<item name="oldCash"			count="50,100"/>
+</lootgroup>
+
+<lootgroup name="LootCoinsMedium" count="1" level="0,999999">
+	<item name="casinoCoin"			count="50,100"/>
+</lootgroup>
+
+<lootgroup name="LootBackpackHiker" count="1" level="0,999999">
+	<item name="foodBakedPotato"			count="1"/>
+	<item name="foodShamSandwich"			count="1"/>
+	<item name="foodCornBread"				count="1"/>
+	<item name="foodCornOnTheCob"			count="1"/>
+	<item name="foodCanSoup"				count="1"/>
+	<item name="foodCanSham"				count="1"/>
+	<item name="foodCanTuna"				count="1"/>
+	<item name="foodCanChili"				count="1"/>
+	<item name="drinkJarRedTea"				count="1"/>
+	<item name="drinkJarGoldenRodTea"		count="1"/>
+	<item name="drinkJarYuccaJuice"			count="1"/>
+	<item name="drinkJarPureMineralWater"	count="1"/>
+	<item name="medicalFirstAidBandage"		count="1"/>
+	<item name="medicalSplint"				count="1"/>	
+</lootgroup>
+
+<lootgroup name="LootBagMiner" count="1" level="0,999999">
+	<item name="resourceCoal"			count="100,200"/>
+	<item name="resourceOilShale"		count="100,200"/>
+	<item name="resourceScrapLead"		count="100,200"/>
+	<item name="resourceScrapIron"		count="100,200"/>
+	<item name="resourceForgedIron"		count="6,12"/>
+</lootgroup>
+
+
+
+
+
+
+<!--
+<lootgroup name="SantaFood" count="1" level="0,999999">
+	<item name="foodCanBeef"			count="10,20"/>
+	<item name="foodCanChicken"			count="10,20"/>
+	<item name="foodCanLamb"			count="10,20"/>
+	<item name="foodCanChili"			count="10,20"/>
+	<item name="foodCanSham"			count="10,20"/>
+	<item name="foodCanPasta"			count="10,20"/>
+	<item name="foodCanSalmon"			count="10,20"/>
+	<item name="foodPumpkinBread"		count="20,30"/>
+</lootgroup>
+-->
+
+<lootgroup name="SantaFood" count="1" level="0,999999">
+	<item name="foodCanBeef"			count="5,10"/>
+	<item name="foodCanChicken"			count="5,10"/>
+	<item name="foodCanLamb"			count="5,10"/>
+	<item name="foodCanChili"			count="5,10"/>
+	<item name="foodCanSham"			count="5,10"/>
+	<item name="foodCanPasta"			count="5,10"/>
+	<item name="foodCanSalmon"			count="5,10"/>
+	<item name="foodPumpkinBread"		count="10,15"/>
+</lootgroup>
+
+<lootgroup name="SantaGear" count="1" level="0,999999">
+	<item name="enT1HandgunBundle"		count="1"/>
+	<item name="enT2HandgunBundle"		count="1"/>
+	<item name="enT3HandgunBundle"		count="1"/>
+	<item name="enT1ShotgunBundle"		count="1"/>
+	<item name="enT2ShotgunBundle"		count="1"/>
+	<item name="enT3ShotgunBundle"		count="1"/>
+	<item name="enT1RifleBundle"		count="1"/>
+	<item name="enT2RifleBundle"		count="1"/>
+	<item name="enT3RifleBundle"		count="1"/>
+	<item name="enT1MachineGunBundle"	count="1"/>
+	<item name="enT2MachineGunBundle"	count="1"/>
+	<item name="enT3MachineGunBundle"	count="1"/>
+	<item name="enT3SMGBundle"			count="1"/>
+	<item name="enMiningHelmetBundle"	count="1"/>
+	<item name="enT0LightArmorBundle"	count="1"/>
+	<item name="enT1LightArmorBundle"	count="1"/>
+	<item name="enT2LightArmorBundle"	count="1"/>
+	<item name="enT0HeavyArmorBundle"	count="1"/>
+	<item name="enT1HeavyArmorBundle"	count="1"/>
+	<item name="enT2HeavyArmorBundle"	count="1"/>
+</lootgroup>
+
+<lootgroup name="SantaSweets" count="1" level="0,999999">
+	<item name="drugAtomJunkies"	count="5"/>
+	<item name="drugCovertCats"		count="5"/>
+	<item name="drugEyeKandy"		count="5"/>
+	<item name="drugHackers"		count="5"/>
+	<item name="drugHealthBar"		count="5"/>
+	<item name="drugJailBreakers"	count="5"/>
+	<item name="drugNerdTats"		count="5"/>
+	<item name="drugOhShitzDrops"	count="5"/>
+	<item name="drugRockBusters"	count="5"/>
+	<item name="drugSkullCrushers"	count="5"/>
+	<item name="drugSugarButts"		count="5"/>
+</lootgroup>
+
+<lootgroup name="LootSantaGood" count="all" level="0,999999">
+	<item group="SantaFood"		count="2"/>
+	<item group="SantaGear"		count="2"/>
+	<item group="SantaSweets"	count="2"/>
+</lootgroup>
+
+<lootgroup name="LootSantaBad" count="1" level="0,999999">
+	<item name="resourceCoal"	count="600,800"/>
+</lootgroup>
+
+<lootgroup name="LootSantaHelperGood" count="all" level="0,999999">
+	<item group="SantaFood"		count="1"/>
+	<item group="SantaGear"		count="1"/>
+	<item group="SantaSweets"	count="1"/>
+</lootgroup>
+
+<lootgroup name="LootSantaHelperBad" count="1" level="0,999999">
+	<item name="resourceCoal"	count="300,400"/>
+</lootgroup>
+
+
+
+
+
+<!-- ******************************************* -->
+<!-- **** BODY LOOT specific to zombie type **** -->
+<!-- ******************************************* -->
+
+<lootgroup name="en_backpack_hiker" count="all" level="0,999999">
+	<item group="LootBackpackHiker" count="1"/>
+	<item group="LootCashSmall" count="1"/>
+	<item group="LootJunk" count="1"/>
+</lootgroup>
+
+<lootgroup name="en_bag_miner" count="all" level="0,999999">
+	<item group="LootBagMiner" count="1"/>
+</lootgroup>
+
+<lootgroup name="en_bag_giant" count="all" level="0,999999">
+	<item group="LootCoinsMedium" count="1"/>
+	<item group="LootMeatSmall" count="1"/>
+</lootgroup>
+
+<lootgroup name="en_bag_cowboy3" count="all" level="0,999999">
+	<item group="LootCashMedium" count="1"/>
+	<item group="LootCoinsMedium" count="1"/>
+</lootgroup>
+
+<lootgroup name="en_santabag" count="1" level="0,999999">
+	<item group="LootSantaGood" count="1"/>
+	<item group="LootSantaBad" count="1"/>
+</lootgroup>
+
+<lootgroup name="en_santahelperbag" count="1" level="0,999999">
+	<item group="LootSantaHelperGood" count="1"/>
+	<item group="LootSantaHelperBad" count="1"/>
+</lootgroup>
+
+
+<!-- enForestHikerFemale1 enForestHikerFemale2 enForestHikerMale1 enForestHikerMale2 -->
+<lootcontainer id="800" name="cntHikerBackpack" count="1" size="8,1" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="EnQualityTemplate">
+	<item group="en_backpack_hiker"	count="1"/>
+</lootcontainer>
+
+<!-- enDesertMiner1 enDesertMiner2 enDesertMiner3 -->
+<lootcontainer id="803" name="cntBagMiner" count="1" size="8,1" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="EnQualityTemplate">
+	<item group="en_bag_miner"	count="1"/>
+</lootcontainer>
+
+<!-- enBurntGiant enWastelandGiant -->
+<lootcontainer id="806" name="cntBagGiant" count="1" size="8,1" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="EnQualityTemplate">
+	<item group="en_bag_giant"	count="1"/>
+</lootcontainer>
+
+<!-- enDesertCowboy3 -->
+<lootcontainer id="809" name="cntBagCowboy" count="1" size="8,1" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="EnQualityTemplate">
+	<item group="en_bag_cowboy3"	count="1"/>
+</lootcontainer>
+
+<!-- enSnowSanta1 -->
+<lootcontainer id="812" name="cntSantaBag" count="1" size="8,1" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="EnQualityTemplate">
+	<item group="en_santabag"	count="1"/>
+</lootcontainer>
+
+<!-- enSnowSantaHelper1 -->
+<lootcontainer id="812" name="cntSantaHelperBag" count="1" size="8,1" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="EnQualityTemplate">
+	<item group="en_santahelperbag"	count="1"/>
+</lootcontainer>
+
+</append>
+	
+</ErrorNull>

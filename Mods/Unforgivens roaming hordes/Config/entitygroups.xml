@@ -18,8 +18,8 @@
     <entity name="animalKingBones" prob="1.3" count="5" />
     <entity name="animalQueenSosa" prob="1.3" count="5"/>
     <entity name="animalSnakeRad" prob="1.3" count="5"/>
-    <entity name="animalOttosPetRad" prob="2.5"/>
--
+    <entity name="animalOttoRad" prob="1.3" count="10"/>
+-   <entity name="animalACTigerRad" prob="1.3" count="5"/>
 
     </append>
 
@@ -33,7 +33,7 @@
 		<entity name="animalDragonWolfRad" prob="2.5"/>
 		<entity name="animalHellsJanitorRad" prob="2.5" />
 		<entity name="animalJonahsPetRad" prob="2.5" />
-        <entity name="animalOttosPetRad" prob="2.5"/>
-			
+       <entity name="animalOttoRad" prob="2.5" />
+	   <entity name="animalACTigerRad" prob="2.5" />		
 	</append>
 </SEOR>

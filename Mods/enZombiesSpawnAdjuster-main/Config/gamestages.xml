@@ -1,0 +1,233 @@
+<ErrorNull>
+
+<!-- WANDERING HORDE
+Here on the right of each line are the default values for "num". 
+This represents how many zombies will spawn from each group when a wandering horde appears.
+Note that the bottom half of the list have group names that end with "2" which contain
+stronger zombie variations.. like feral vs normal.
+-->
+
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='ZombiesCrawlers']/			@num">10</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingBusiness']/		@num">10</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingFarmers']/		@num">10</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingStrippers']/		@num">10</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingHazmats']/		@num">10</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingWorkers']/		@num">10</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCrazies']/		@num">10</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCamos']/			@num">5</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingHikers']/		@num">10</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingPunks']/			@num">10</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingKHz']/			@num">10</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='ZombieDogGroup']/			@num">05</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCowboys']/		@num">10</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingFatasses']/		@num">10</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingSpiders']/		@num">10</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingAthletes']/		@num">10</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingBikers']/		@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingMiners']/		@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingFlamers']/		@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingLumberjacks']/	@num">06</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingMilitary']/		@num">10</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingLabCreatures']/	@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='ZombieDogGroup']/			@num">06</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCops']/			@num">01</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingGiants']/		@num">01</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingBusiness2']/		@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingFarmers2']/		@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingStrippers2']/	@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingHazmats2']/		@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingWorkers2']/		@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCrazies2']/		@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCamos2']/		@num">05</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingHikers2']/		@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='ZombieDogGroup']/			@num">07</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingPunks2']/		@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingKHz2']/			@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCowboys2']/		@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingFatasses2']/		@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingSpiders2']/		@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingAthletes2']/		@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingBikers2']/		@num">06</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingMiners2']/		@num">06</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingFlamers2']/		@num">06</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingLumberjacks2']/	@num">06</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='ZombieDogGroup']/			@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingMilitary2']/		@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingLabCreatures2']/	@num">08</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCops2']/			@num">02</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingGiants']/		@num">02</set>
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingDemolition']/	@num">01</set>
+	
+	
+	
+<!-- SCREAMER / SCOUT HORDE
+These are the zombies that arrive to help the screamer. 
+The two values you can modify are 'num" and 'maxAlive'.
+num = how many zombies total that the scream will try to spawn
+maxAlive = how many zombies can actually be alive at a time
+Keep in mind that the "Blood Moon Count" setting from the main game menu or the
+"MaxSpawnedZombies" property within the serverconfig.xml will override this maxAlive setting. 
+-->
+
+<set xpath="/gamestages/spawner[@name='ScoutGSList']">
+	<gamestage stage="1"><spawn group="scoutHordeStageGS1" 		num="1" 	maxAlive="1" 	duration="1"/></gamestage>
+	<gamestage stage="2"><spawn group="scoutHordeStageGS1" 		num="2" 	maxAlive="2" 	duration="1"/></gamestage>
+	<gamestage stage="4"><spawn group="scoutHordeStageGS1" 		num="3" 	maxAlive="3" 	duration="1"/></gamestage>
+	<gamestage stage="6"><spawn group="scoutHordeStageGS1" 		num="6" 	maxAlive="6" 	duration="1"/></gamestage>
+	<gamestage stage="11"><spawn group="scoutHordeStageGS1" 	num="9" 	maxAlive="9" 	duration="1"/></gamestage>
+	<gamestage stage="18"><spawn group="scoutHordeStageGS2" 	num="14" 	maxAlive="14" 	duration="1"/></gamestage>
+	<gamestage stage="29"><spawn group="scoutHordeStageGS3" 	num="21" 	maxAlive="20" 	duration="1"/></gamestage>
+	<gamestage stage="44"><spawn group="scoutHordeStageGS4" 	num="30" 	maxAlive="29" 	duration="1"/></gamestage>
+	<gamestage stage="67"><spawn group="scoutHordeStageGS5" 	num="42" 	maxAlive="40" 	duration="1"/></gamestage>
+	<gamestage stage="98"><spawn group="scoutHordeStageGS6" 	num="56" 	maxAlive="53" 	duration="1"/></gamestage>
+	<gamestage stage="140"><spawn group="scoutHordeStageGS7" 	num="73" 	maxAlive="68" 	duration="1"/></gamestage>
+	<gamestage stage="195"><spawn group="scoutHordeStageGS8" 	num="92" 	maxAlive="85" 	duration="1"/></gamestage>
+	<gamestage stage="266"><spawn group="scoutHordeStageGS9" 	num="114" 	maxAlive="103" 	duration="1"/></gamestage>
+	<gamestage stage="355"><spawn group="scoutHordeStageGS10" 	num="137" 	maxAlive="124" 	duration="1"/></gamestage>
+	<gamestage stage="463"><spawn group="scoutHordeStageGS11" 	num="163" 	maxAlive="145" 	duration="1"/></gamestage>
+	<gamestage stage="593"><spawn group="scoutHordeStageGS12" 	num="189" 	maxAlive="167" 	duration="1"/></gamestage>
+	<gamestage stage="746"><spawn group="scoutHordeStageGS13" 	num="217" 	maxAlive="190" 	duration="1"/></gamestage>
+	<gamestage stage="923"><spawn group="scoutHordeStageGS14" 	num="245" 	maxAlive="212" 	duration="1"/></gamestage>
+	<gamestage stage="1124"><spawn group="scoutHordeStageGS15" 	num="272" 	maxAlive="235" 	duration="1"/></gamestage>
+	<gamestage stage="1350"><spawn group="scoutHordeStageGS16" 	num="300" 	maxAlive="256" 	duration="1"/></gamestage>
+</set>
+
+
+
+<!-- BLOODMOON HORDE
+This is the blodmoon horde. The two values you can modify are 'num" and 'maxAlive'.
+num = how many zombies total will spawn during the bloodmoon horde night
+maxAlive = how many zombies can actually be alive at a time
+Keep in mind that the "Blood Moon Count" setting from the main game menu or the
+"MaxSpawnedZombies" property within the serverconfig.xml will override this maxAlive setting. 
+Each gamestage group 'stage' number below determines what gamestage you or your pary must be to 
+activate the zombies at that group. For example, for the gamestage 'stage=18' group below,
+it will activate if you or your party's total gamestage is at least 18 and less than 30.
+Then when the hordenight begins, it iwll attempt to first spawn 20 enemies from feralHordeStageGS1, 
+then once they are defeated will attempt to spawn 12 from BloodmoonCreaturesGS2, 
+then finally will try to spawn 40 more enemies from feralHordeStageGS1. once all the 
+enemies from those three subgroups are defeated, no more zombies will spawn during that night.
+-->
+<set xpath="/gamestages/spawner[@name='BloodMoonHorde']">
+	<gamestage stage="1">
+		<spawn group="feralHordeStageGS1" 		num="5" maxAlive="5" duration="2"/>
+	</gamestage>
+	
+	<gamestage stage="2">
+		<spawn group="feralHordeStageGS1" 		num="5" maxAlive="5" duration="2"/>
+	</gamestage>
+	
+	<gamestage stage="4">
+		<spawn group="feralHordeStageGS1" 		num="10" maxAlive="8" duration="2"/>
+	</gamestage>
+	
+	<gamestage stage="6">
+		<spawn group="feralHordeStageGS1" 		num="20" maxAlive="8" duration="2"/>
+	</gamestage>
+	
+	<gamestage stage="11">
+		<spawn group="feralHordeStageGS1" 		num="20" maxAlive="9" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS1" 	num="10" maxAlive="10" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS1"		num="20" maxAlive="9" duration="2"/>
+	</gamestage>
+	
+	<gamestage stage="18">
+		<spawn group="feralHordeStageGS1" 		num="20" maxAlive="15" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS2" 	num="12" maxAlive="12" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS1" 		num="40" maxAlive="15" duration="2"/>
+	</gamestage>
+	
+	<gamestage stage="30">
+		<spawn group="feralHordeStageGS2" 		num="50" maxAlive="22" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS3" 	num="14" maxAlive="14" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS3" 		num="70" maxAlive="22" duration="2" interval="10"/>
+	</gamestage>
+	
+	<gamestage stage="45">
+		<spawn group="feralHordeStageGS3" 		num="80" maxAlive="32" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS4" 	num="16" maxAlive="16" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS4" 		num="100" maxAlive="32" duration="2" interval="10"/>
+	</gamestage>
+	
+	<gamestage stage="70">
+		<spawn group="feralHordeStageGS4" 		num="110" maxAlive="45" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS5" 	num="18" maxAlive="18" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS5" 		num="130" maxAlive="45" duration="2" interval="10"/>
+	</gamestage>
+	
+	<gamestage stage="100">
+		<spawn group="feralHordeStageGS5" 		num="140" maxAlive="61" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS6" 	num="20" maxAlive="20" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS6" 		num="160" maxAlive="61" duration="2" interval="10"/>
+	</gamestage>
+	
+	<gamestage stage="140">
+		<spawn group="feralHordeStageGS6" 		num="170" maxAlive="80" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS7" 	num="22" maxAlive="22" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS7" 		num="190" maxAlive="80" duration="2" interval="10"/>
+	</gamestage>
+	
+	<gamestage stage="200">
+		<spawn group="feralHordeStageGS7" 		num="200" maxAlive="102" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS8" 	num="24" maxAlive="24" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS8" 		num="220" maxAlive="102" duration="2" interval="10"/>
+	</gamestage>
+	
+	<gamestage stage="270">
+		<spawn group="feralHordeStageGS8" 		num="230" maxAlive="128" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS9" 	num="26" maxAlive="26" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS9" 		num="250" maxAlive="128" duration="2" interval="10"/>
+	</gamestage>
+	
+	<gamestage stage="360">
+		<spawn group="feralHordeStageGS9" 		num="260" maxAlive="156" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS10" 	num="28" maxAlive="28" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS10" 		num="280" maxAlive="156" duration="2" interval="10"/>
+	</gamestage>
+	
+	<gamestage stage="475">
+		<spawn group="feralHordeStageGS10" 		num="290" maxAlive="187" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS11" 	num="30" maxAlive="30" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS11" 		num="310" maxAlive="187" duration="2" interval="10"/>
+	</gamestage>
+	
+	<gamestage stage="610">
+		<spawn group="feralHordeStageGS11" 		num="320" maxAlive="221" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS12" 	num="32" maxAlive="32" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS12" 		num="340" maxAlive="221" duration="2" interval="10"/>
+	</gamestage>
+	
+	<gamestage stage="770">
+		<spawn group="feralHordeStageGS12" 		num="350" maxAlive="256" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS13" 	num="34" maxAlive="34" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS13" 		num="370" maxAlive="256" duration="2" interval="10"/>
+	</gamestage>
+	
+	<gamestage stage="950">
+		<spawn group="feralHordeStageGS13" 		num="380" maxAlive="256" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS14" 	num="36" maxAlive="36" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS14" 		num="400" maxAlive="256" duration="2" interval="10"/>
+	</gamestage>
+	
+	<gamestage stage="1160">
+		<spawn group="feralHordeStageGS14" 		num="410" maxAlive="256" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS15" 	num="38" maxAlive="38" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS15" 		num="430" maxAlive="256" duration="2" interval="10"/>
+	</gamestage>
+	
+	<gamestage stage="1400">
+		<spawn group="feralHordeStageGS15" 		num="440" maxAlive="256" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS16" 	num="40" maxAlive="40" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS16" 		num="460" maxAlive="256" duration="2" interval="10"/>
+	</gamestage>
+	
+	<gamestage stage="1650">
+		<spawn group="feralHordeStageGS16" 		num="470" maxAlive="256" duration="2" interval="10"/>
+		<spawn group="BloodmoonCreaturesGS17" 	num="42" maxAlive="42" duration="1" interval="10"/>
+		<spawn group="feralHordeStageGS17" 		num="490" maxAlive="256" duration="2" interval="10"/>
+	</gamestage>		
+</set>
+
+
+
+</ErrorNull>

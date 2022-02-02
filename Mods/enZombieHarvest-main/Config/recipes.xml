@@ -1,0 +1,197 @@
+<ErrorNull>
+	
+	<!-- *****************************************************************************
+	Modified recipes to require more cloth, rotten flesh, animal fat, leather,
+	and bones since these resources are more plentiful from zombie body harvesting.
+	Numbers inside comments were the original values.
+	********************************************************************************-->
+	
+	<!-- FOOD -->
+	<set xpath="/recipes/recipe[@name='foodCanSham']/ingredient[@name='foodRottingFlesh']/@count">10</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='foodCanSham']/ingredient[@name='resourceAnimalFat']/@count">8</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='foodCanSham']/ingredient[@name='resourceBone']/@count">8</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='foodHoboStew']/ingredient[@name='foodRottingFlesh']/@count">20</set> <!-- 10 -->
+	<set xpath="/recipes/recipe[@name='foodHoboStew']/ingredient[@name='resourceAnimalFat']/@count">2</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='foodBlueberryPie']/ingredient[@name='resourceAnimalFat']/@count">2</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='foodPumpkinPie']/ingredient[@name='resourceAnimalFat']/@count">2</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='foodPumpkinCheesecake']/ingredient[@name='resourceAnimalFat']/@count">2</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='foodMeatStew']/ingredient[@name='resourceAnimalFat']/@count">2</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='foodGumboStew']/ingredient[@name='resourceAnimalFat']/@count">5</set> <!-- 3 -->
+	<set xpath="/recipes/recipe[@name='foodShepardsPie']/ingredient[@name='resourceAnimalFat']/@count">5</set> <!-- 3 -->
+	<set xpath="/recipes/recipe[@name='foodSpaghetti']/ingredient[@name='resourceAnimalFat']/@count">5</set> <!-- 3 -->
+	<set xpath="/recipes/recipe[@name='foodTunaFishGravyToast']/ingredient[@name='resourceAnimalFat']/@count">5</set> <!-- 3 -->
+	<set xpath="/recipes/recipe[@name='foodSteakAndPotato']/ingredient[@name='resourceAnimalFat']/@count">2</set> <!-- 1 -->
+	
+	<!-- AMMO -->
+	<set xpath="/recipes/recipe[@name='ammoArrowFlaming']/ingredient[@name='resourceCloth']/@count">1</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='ammoArrowFlaming']/ingredient[@name='resourceAnimalFat']/@count">1</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowFlaming']/ingredient[@name='resourceCloth']/@count">80</set> <!-- 80 -->
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowFlaming']/ingredient[@name='resourceAnimalFat']/@count">80</set> <!-- 80 -->
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltFlaming']/ingredient[@name='resourceCloth']/@count">1</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltFlaming']/ingredient[@name='resourceAnimalFat']/@count">1</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltFlaming']/ingredient[@name='resourceCloth']/@count">80</set> <!-- 80 -->
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltFlaming']/ingredient[@name='resourceAnimalFat']/@count">80</set> <!-- 80 -->
+	
+	<!-- WEAPONS -->
+	<set xpath="/recipes/recipe[@name='gunBowT1WoodenBow']/ingredient[@name='resourceLeather']/@count">4</set> <!-- 3 -->
+	<set xpath="/recipes/recipe[@name='gunBowT3CompoundBow']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='gunBowT1IronCrossbow']/ingredient[@name='resourceLeather']/@count">4</set> <!-- 3 -->
+	<set xpath="/recipes/recipe[@name='gunBowT3CompoundCrossbow']/ingredient[@name='resourceLeather']/@count">2</set> <!-- 3 -->	
+	<set xpath="/recipes/recipe[@name='thrownAmmoMolotovCocktail']/ingredient[@name='resourceCloth']/@count">2</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='meleeWpnBladeT0BoneKnife']/ingredient[@name='resourceBone']/@count">8</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='meleeWpnClubT1BaseballBat']/ingredient[@name='resourceLeather']/@count">2</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='meleeWpnClubT3SteelClub']/ingredient[@name='resourceLeather']/@count">4</set> <!-- 3 -->
+	<set xpath="/recipes/recipe[@name='meleeWpnSpearT1IronSpear']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='meleeWpnSpearT3SteelSpear']/ingredient[@name='resourceLeather']/@count">4</set> <!-- 3 -->
+	<set xpath="/recipes/recipe[@name='meleeWpnBladeT1HuntingKnife']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='meleeWpnBladeT3Machete']/ingredient[@name='resourceLeather']/@count">4</set> <!-- 3 -->
+	<set xpath="/recipes/recipe[@name='meleeWpnBatonT2StunBaton']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='meleeWpnKnucklesT0LeatherKnuckles']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='meleeWpnKnucklesT1IronKnuckles']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='meleeWpnKnucklesT3SteelKnuckles']/ingredient[@name='resourceLeather']/@count">4</set> <!-- 3 -->
+	<set xpath="/recipes/recipe[@name='meleeWpnSledgeT1IronSledgehammer']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='meleeWpnSledgeT3SteelSledgehammer']/ingredient[@name='resourceLeather']/@count">4</set> <!-- 3 -->
+	
+	<!-- ARMOR -->
+	<set xpath="/recipes/recipe[@name='armorClothBoots']/ingredient[@name='resourceCloth']/@count">8</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorClothGloves']/ingredient[@name='resourceCloth']/@count">8</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorClothHat']/ingredient[@name='resourceCloth']/@count">8</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorClothJacket']/ingredient[@name='resourceCloth']/@count">12</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorClothPants']/ingredient[@name='resourceCloth']/@count">12</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorIronBoots']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorIronChest']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorIronGloves']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorIronHelmet']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorIronLegs']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorLeatherBoots']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorLeatherChest']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorLeatherGloves']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorLeatherHood']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorLeatherPants']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorFirefightersHelmet']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorMiningHelmet']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='armorScrapBoots']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='armorScrapChest']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='armorScrapGloves']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='armorScrapHelmet']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='armorScrapLegs']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='armorSteelBoots']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='armorSteelChest']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='armorSteelGloves']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='armorSteelHelmet']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='armorSteelLegs']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	
+	<!-- APPAREL -->
+	<set xpath="/recipes/recipe[@name='apparelFlannelShirt']/ingredient[@name='resourceCloth']/@count">35</set> <!-- 20 -->
+	<set xpath="/recipes/recipe[@name='apparelSweatshirt']/ingredient[@name='resourceCloth']/@count">45</set> <!-- 25 -->
+	<set xpath="/recipes/recipe[@name='apparelSkullCap']/ingredient[@name='resourceCloth']/@count">15</set> <!-- 10 -->
+	<set xpath="/recipes/recipe[@name='apparelDenimPants']/ingredient[@name='resourceCloth']/@count">25</set> <!-- 25 -->
+	<set xpath="/recipes/recipe[@name='apparelDenimShortsPants']/ingredient[@name='resourceCloth']/@count">20</set> <!-- 20 -->
+	<set xpath="/recipes/recipe[@name='apparelOveralls']/ingredient[@name='resourceCloth']/@count">30</set> <!-- 25 -->
+	<set xpath="/recipes/recipe[@name='apparelSkirt']/ingredient[@name='resourceCloth']/@count">15</set> <!-- 20 -->
+	<set xpath="/recipes/recipe[@name='apparelTankTop']/ingredient[@name='resourceCloth']/@count">15</set> <!-- 25 -->
+	<set xpath="/recipes/recipe[@name='apparelTShirtPlain']/ingredient[@name='resourceCloth']/@count">20</set> <!-- 25 -->
+	<set xpath="/recipes/recipe[@name='apparelCoatPufferCoat']/ingredient[@name='resourceCloth']/@count">50</set> <!-- 35 -->
+	<set xpath="/recipes/recipe[@name='apparelArmyPants']/ingredient[@name='resourceCloth']/@count">35</set> <!-- 25 -->
+	<set xpath="/recipes/recipe[@name='apparelArmyShirt']/ingredient[@name='resourceCloth']/@count">35</set> <!-- 25 -->
+	<set xpath="/recipes/recipe[@name='apparelBallCap']/ingredient[@name='resourceCloth']/@count">8</set> <!-- 4 -->
+	<set xpath="/recipes/recipe[@name='apparelBandana']/ingredient[@name='resourceCloth']/@count">8</set> <!-- 4 -->
+	<set xpath="/recipes/recipe[@name='apparelCoatJacketLetterZU']/ingredient[@name='resourceCloth']/@count">50</set> <!-- 20 -->
+	<set xpath="/recipes/recipe[@name='apparelCoatLeatherPoncho']/ingredient[@name='resourceLeather']/@count">30</set> <!-- 20 -->
+	<set xpath="/recipes/recipe[@name='apparelWornBoots']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='apparelRunningShoesRegular']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='apparelCowboyBoots']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='apparelSuitDressShoes']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='apparelCowboyHat']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='apparelCoatLeatherDuster']/ingredient[@name='resourceLeather']/@count">36</set> <!-- 25 -->	
+		
+	<!-- TOOLS -->
+	<set xpath="/recipes/recipe[@name='meleeToolTorch']/ingredient[@name='resourceCloth']/@count">2</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='meleeToolTorch']/ingredient[@name='resourceAnimalFat']/@count">1</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='meleeToolRepairT1ClawHammer']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='meleeToolAxeT1IronFireaxe']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='meleeToolAxeT2SteelAxe']/ingredient[@name='resourceLeather']/@count">4</set> <!-- 3 -->
+	<set xpath="/recipes/recipe[@name='meleeToolPaintTool']/ingredient[@name='resourceLeather']/@count">2</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='meleeToolPickT1IronPickaxe']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='meleeToolPickT2SteelPickaxe']/ingredient[@name='resourceLeather']/@count">4</set> <!-- 3 -->
+	<set xpath="/recipes/recipe[@name='meleeToolShovelT1IronShovel']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='meleeToolShovelT2SteelShovel']/ingredient[@name='resourceLeather']/@count">4</set> <!-- 3 -->
+	<set xpath="/recipes/recipe[@name='toolBellows']/ingredient[@name='resourceLeather']/@count">30</set> <!-- 20 -->
+	
+	<!-- MODS -->
+	<set xpath="/recipes/recipe[@name='modArmorInsulatedLiner']/ingredient[@name='resourceCloth']/@count">20</set> <!-- 10 -->
+	<set xpath="/recipes/recipe[@name='modClothingStoragePocket']/ingredient[@name='resourceCloth']/@count">10</set> <!-- 15 -->
+	<set xpath="/recipes/recipe[@name='modClothingStoragePocket']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='modClothingCargoStoragePocket']/ingredient[@name='resourceCloth']/@count">25</set> <!-- 30 -->
+	<set xpath="/recipes/recipe[@name='modClothingCargoStoragePocket']/ingredient[@name='resourceLeather']/@count">6</set> <!-- 4 -->
+	<set xpath="/recipes/recipe[@name='modArmorBandolier']/ingredient[@name='resourceCloth']/@count">20</set> <!-- 10 -->
+	<set xpath="/recipes/recipe[@name='modArmorBandolier']/ingredient[@name='resourceLeather']/@count">20</set> <!-- 15 -->
+	<set xpath="/recipes/recipe[@name='modArmorCustomizedFittings']/ingredient[@name='resourceLeather']/@count">12</set> <!-- 8 -->
+	<set xpath="/recipes/recipe[@name='modArmorDoubleStoragePocket']/ingredient[@name='resourceLeather']/@count">12</set> <!-- 8 -->
+	<set xpath="/recipes/recipe[@name='modArmorImprovedFittings']/ingredient[@name='resourceLeather']/@count">6</set> <!-- 4 -->
+	<set xpath="/recipes/recipe[@name='modArmorPlatingBasic']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='modArmorStoragePocket']/ingredient[@name='resourceLeather']/@count">9</set> <!-- 6 -->
+	<set xpath="/recipes/recipe[@name='modArmorTripleStoragePocket']/ingredient[@name='resourceLeather']/@count">15</set> <!-- 10 -->
+	
+	<!-- BLOCKS -->
+	<!--<set xpath="/recipes/recipe[@name='awningBlockVariantHelper']/ingredient[@name='resourceCloth']/@count">20</set>--> <!-- 10 -->
+	<!--<set xpath="/recipes/recipe[@name='bed01']/ingredient[@name='resourceCloth']/@count">40</set>--> <!-- 20 -->
+	<set xpath="/recipes/recipe[@name='bed02']/ingredient[@name='resourceCloth']/@count">80</set> <!-- 40 -->
+	<set xpath="/recipes/recipe[@name='sandbagBlockVariantHelper']/ingredient[@name='resourceCloth']/@count">4</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='sectionalPlaidCouchSofaBlockVariantHelper']/ingredient[@name='resourceCloth']/@count">15</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='couchSofa01']/ingredient[@name='resourceCloth']/@count">30</set> <!-- 15 -->
+	<set xpath="/recipes/recipe[@name='chairCouchSofa01']/ingredient[@name='resourceCloth']/@count">30</set> <!-- 15 -->
+	<!--<set xpath="/recipes/recipe[@name='farmPlotBlockPlayer']/ingredient[@name='foodRottingFlesh']/@count">20</set>--> <!-- 10 -->
+	<set xpath="/recipes/recipe[@name='candle']/ingredient[@name='resourceAnimalFat']/@count">1</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='forge']/ingredient[@name='resourceLeather']/@count">15</set> <!-- 10 -->	
+	<set xpath="/recipes/recipe[@name='officeChair01']/ingredient[@name='resourceLeather']/@count">12</set> <!-- 8 -->
+	<set xpath="/recipes/recipe[@name='sectionalLeatherCouchSofaBlockVariantHelper']/ingredient[@name='resourceLeather']/@count">7</set> <!-- 5 -->
+	<set xpath="/recipes/recipe[@name='leatherCouchSofa2']/ingredient[@name='resourceLeather']/@count">22</set> <!-- 15 -->
+	<set xpath="/recipes/recipe[@name='leatherChairCouchSofa2']/ingredient[@name='resourceLeather']/@count">22</set> <!-- 15 -->	
+	
+	<!-- VEHICLES -->
+	<set xpath="/recipes/recipe[@name='vehicle4x4TruckChassis']/ingredient[@name='resourceLeather']/@count">55</set> <!-- 40 -->
+	<set xpath="/recipes/recipe[@name='vehicleBicycleChassis']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='vehicleBicycleHandlebars']/ingredient[@name='resourceLeather']/@count">3</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='vehicleGyroCopterChassis']/ingredient[@name='resourceLeather']/@count">55</set> <!-- 40 -->
+	<set xpath="/recipes/recipe[@name='vehicleMinibikeChassis']/ingredient[@name='resourceLeather']/@count">6</set> <!-- 4 -->
+	<set xpath="/recipes/recipe[@name='vehicleMotorcycleChassis']/ingredient[@name='resourceLeather']/@count">15</set> <!-- 10 -->
+
+	<!-- ITEMS -->
+	<set xpath="/recipes/recipe[@name='resourceCloth']/ingredient[@name='resourceCropCottonPlant']/@count">2</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='resourceCloth']/ingredient[@name='resourceYuccaFibers']/@count">40</set> <!-- 20 -->
+	<set xpath="/recipes/recipe[@name='medicalBandage']/ingredient[@name='resourceCloth']/@count">4</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='medicalFirstAidBandage']/ingredient[@name='resourceCloth']/@count">4</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='medicalPlasterCast']/ingredient[@name='resourceCloth']/@count">4</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='medicalSplint']/ingredient[@name='resourceCloth']/@count">4</set> <!-- 2 -->
+	<set xpath="/recipes/recipe[@name='resourceDuctTape']/ingredient[@name='resourceCloth']/@count">2</set> <!-- 1 -->
+	<set xpath="/recipes/recipe[@name='drugFortBites']/ingredient[@name='foodRottingFlesh']/@count">40</set> <!-- 20 -->
+	
+	<!-- GLUE -->
+	<remove xpath="/recipes/recipe[@name='resourceGlue']" />
+	<append xpath="/recipes">
+		<recipe name="resourceGlue" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkAdvancedEngineering">
+			<ingredient name="resourceBone" count="14"/> <!-- 7 -->
+			<ingredient name="drinkJarRiverWater" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="1,5" operation="base_add" value="-1" tags="resourceBone"/>
+			</effect_group>
+		</recipe>
+		<recipe name="resourceGlue" count="1" craft_area="chemistryStation" tags="perkAdvancedEngineering,chemStationCrafting">
+			<ingredient name="resourceBone" count="10"/> <!-- 5 -->
+			<ingredient name="drinkJarRiverWater" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="1,5" operation="base_add" value="-1" tags="resourceBone"/>
+			</effect_group>
+		</recipe>
+		<recipe name="resourceGlue" count="1" craft_area="chemistryStation" tags="perkAdvancedEngineering,chemStationCrafting">
+			<ingredient name="foodCropGraceCorn" count="3"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="1,5" operation="base_add" value="-1" tags="foodCropGraceCorn"/>
+			</effect_group>
+		</recipe>
+	</append>
+	
+	
+</ErrorNull>

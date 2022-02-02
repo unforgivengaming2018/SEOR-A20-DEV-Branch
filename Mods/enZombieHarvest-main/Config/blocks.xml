@@ -1,0 +1,12 @@
+<ErrorNull>
+	
+	<!-- ****************************************** -->
+	<!-- ********** corpses and bodybags ********** -->
+	<!-- ****************************************** -->
+	
+	<!-- reduce animal fat harvesting from certain blocks -->
+	<set xpath="/blocks/block[@name='bodyBagBlack']/drop[@name='resourceAnimalFat']/@count">0,1</set> <!-- 1,2 -->
+	<set xpath="/blocks/block[@name='goreBlockAnimal']/drop[@name='resourceAnimalFat']/@count">0,1</set> <!-- 1,2 -->
+
+	
+</ErrorNull>
