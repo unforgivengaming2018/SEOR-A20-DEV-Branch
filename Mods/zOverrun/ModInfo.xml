@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<xml>
+		<ModInfo>
+			<Name value="ResidentEvil"/>
+			<Description value="Spawn and Damage Mod for Resident Evil Game"/>
+			<Author value="dr_alejandro"/>
+			<Version value="1.0"/>
+			<Website value=""/>
+		</ModInfo>
+	</xml>
