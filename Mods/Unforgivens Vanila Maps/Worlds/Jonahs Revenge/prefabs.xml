@@ -1398,7 +1398,7 @@
   <decoration type="model" name="part_high_voltage_box_1" position="-987,37,670" rotation="3" />
   <decoration type="model" name="part_appliance_pile_02" position="-905,37,621" rotation="1" />
   <decoration type="model" name="rwg_tile_gateway_cap" position="-439,34,464" rotation="3" />
-  <decoration type="model" name="trader_joel" position="-418,36,552" rotation="0" />
+  <decoration type="model" name="Trader_ATeam" position="-418,36,552" rotation="0" />
   <decoration type="model" name="part_trader_tile_filler_01" position="-439,35,472" rotation="2" />
   <decoration type="model" name="rwg_tile_countrytown_t" position="-1962,34,359" rotation="1" />
   <decoration type="model" name="store_autoparts_01" position="-1920,32,364" rotation="2" />
@@ -2147,4 +2147,10 @@
   <decoration type="model" name="cabin_13" position="1878,30,1337" rotation="3" />
   <decoration type="model" name="abandoned_house_07" position="-1316,37,-1457" rotation="0" />
   <decoration type="model" name="cabin_06" position="-1653,31,-1085" rotation="0" />
+  <decoration type="model" name="Gas_StationT" position="1298,28,-942" rotation="3" />
+  <decoration type="model" name="Trader_Unforgiven" position="1485,34,-829" rotation="1" />
+  <decoration type="model" name="Library_Tony" position="1348,28,-699" rotation="3" />
+  <decoration type="model" name="prison_01" position="997,51,-811" rotation="3" />
+  <decoration type="model" name="Trader_ATeam" position="-87,30,-519" rotation="3" />
+  <decoration type="model" name="Gas_StationT" position="-22,26,-536" rotation="1" />
 </prefabs>
