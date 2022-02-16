@@ -1,0 +1,104 @@
+<configs>
+
+	<append xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']">
+	<property name="DowngradeBlock" value="plantedMushroom1"/>
+	</append>
+	
+	<set xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']/drop[@name='foodCropMushrooms']/@count">1</set>
+	<set xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']/drop[@name='plantedMushroom1']/@prob">0</set>
+	
+	<append xpath="/blocks/block[@name='plantedYucca3HarvestPlayer']">
+	<property name="DowngradeBlock" value="plantedYucca1"/>
+	</append>
+	
+	<set xpath="/blocks/block[@name='plantedYucca3HarvestPlayer']/drop[@name='foodCropYuccaFruit']/@count">1</set>
+	<set xpath="/blocks/block[@name='plantedYucca3HarvestPlayer']/drop[@name='plantedYucca1']/@prob">0</set>
+
+	<append xpath="/blocks/block[@name='plantedCotton3HarvestPlayer']">
+	<property name="DowngradeBlock" value="plantedCotton1"/>
+	</append>
+	
+	<set xpath="/blocks/block[@name='plantedCotton3HarvestPlayer']/drop[@name='resourceCropCottonPlant']/@count">1</set>
+	<set xpath="/blocks/block[@name='plantedCotton3HarvestPlayer']/drop[@name='plantedCotton1']/@prob">0</set>
+	
+	<append xpath="/blocks/block[@name='plantedCoffee3HarvestPlayer']">
+	<property name="DowngradeBlock" value="plantedCoffee1"/>
+	</append>
+	
+	<set xpath="/blocks/block[@name='plantedCoffee3HarvestPlayer']/drop[@name='resourceCropCoffeeBeans']/@count">1</set>
+	<set xpath="/blocks/block[@name='plantedCoffee3HarvestPlayer']/drop[@name='plantedCoffee1']/@prob">0</set>
+	
+	<append xpath="/blocks/block[@name='plantedGoldenrod3HarvestPlayer']">
+	<property name="DowngradeBlock" value="plantedGoldenrod1"/>
+	</append>
+	
+	<set xpath="/blocks/block[@name='plantedGoldenrod3HarvestPlayer']/drop[@name='resourceCropGoldenrodPlant']/@count">1</set>
+	<set xpath="/blocks/block[@name='plantedGoldenrod3HarvestPlayer']/drop[@name='plantedGoldenrod1']/@prob">0</set>
+	
+	<append xpath="/blocks/block[@name='plantedAloe3HarvestPlayer']">
+	<property name="DowngradeBlock" value="plantedAloe1"/>
+	</append>
+	
+	<set xpath="/blocks/block[@name='plantedAloe3HarvestPlayer']/drop[@name='resourceCropAloeLeaf']/@count">1</set>
+	<set xpath="/blocks/block[@name='plantedAloe3HarvestPlayer']/drop[@name='plantedAloe1']/@prob">0</set>
+	
+	
+	<append xpath="/blocks/block[@name='plantedBlueberry3HarvestPlayer']">
+	<property name="DowngradeBlock" value="plantedBlueberry1"/>
+	</append>
+	
+	<set xpath="/blocks/block[@name='plantedBlueberry3HarvestPlayer']/drop[@name='foodCropBlueberries']/@count">1</set>
+	<set xpath="/blocks/block[@name='plantedBlueberry3HarvestPlayer']/drop[@name='plantedBlueberry1']/@prob">0</set>
+	
+	<append xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']">
+	<property name="DowngradeBlock" value="plantedPotato1"/>
+	</append>
+	
+	<set xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']/drop[@name='foodCropPotato']/@count">1</set>
+	<set xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']/drop[@name='plantedPotato1']/@prob">0</set>
+	
+	<append xpath="/blocks/block[@name='plantedChrysanthemum3HarvestPlayer']">
+	<property name="DowngradeBlock" value="plantedChrysanthemum1"/>
+	</append>
+	
+	<set xpath="/blocks/block[@name='plantedChrysanthemum3HarvestPlayer']/drop[@name='resourceCropChrysanthemumPlant']/@count">1</set>
+	<set xpath="/blocks/block[@name='plantedChrysanthemum3HarvestPlayer']/drop[@name='plantedChrysanthemum1']/@prob">0</set>
+	
+	<append xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']">
+	<property name="DowngradeBlock" value="plantedCorn1"/>
+	</append>
+	
+	<set xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']/drop[@name='foodCropCorn']/@count">1</set>
+	<set xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']/drop[@name='plantedCorn1']/@prob">0</set>
+	
+	<append xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']">
+	<property name="DowngradeBlock" value="plantedGraceCorn1"/>
+	</append>
+	
+	<set xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']/drop[@name='foodCropGraceCorn']/@count">1</set>
+	<set xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']/drop[@name='plantedGraceCorn1']/@prob">0</set>
+	
+	<append xpath="/blocks/block[@name='plantedHop3HarvestPlayer']">
+	<property name="DowngradeBlock" value="plantedHop1"/>
+	</append>
+	
+	<set xpath="/blocks/block[@name='plantedHop3HarvestPlayer']/drop[@name='resourceCropHopsFlower']/@count">1</set>
+	<set xpath="/blocks/block[@name='plantedHop3HarvestPlayer']/drop[@name='plantedHop1']/@prob">0</set>
+	
+	<append xpath="/blocks/block[@name='plantedSnowberry3HarvestPlayer']">
+	<property name="DowngradeBlock" value="plantedSnowberry1"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']">
+	<property name="DowngradeBlock" value="plantedPumpkin1"/>
+	</append>
+	
+	<set xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']/drop[@name='foodCropPumpkin']/@count">1</set>
+	<set xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']/drop[@name='plantedPumpkin1']/@prob">0</set>
+	
+
+
+</configs>
+
+
+
